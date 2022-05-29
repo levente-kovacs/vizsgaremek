@@ -427,6 +427,7 @@ A táplálékkiegészítők legyenek rendezhetők a különböző adataik alapj�
 >A rendezés lehet csökkenő, vagy növekvő irányú is.
 
 <br>
+
 ## További projektadatok
 ---
 
