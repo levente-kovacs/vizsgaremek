@@ -256,12 +256,12 @@ Az oldalon legyen lehetőség, hogy arra az oldalra navigálhassak, amin éppen 
 ><u>***Kalóriatáblázat***</u><br>
 
 Az oldalon látható egy táblázat, mely megjeleníti a különböző élelmiszerek tulajdonságait:
->-megnevezés
->-kalória tartalom
->-fehérje tartalom
->-szénhidrát tartalom
->-zsír tartalom
->-rost tartalom
+>- megnevezés
+>- kalória tartalom
+>- fehérje tartalom
+>- szénhidrát tartalom
+>- zsír tartalom
+>- rost tartalom
 
 <u>*Elfogadási kritérium:*</u><br>
 >Az adatbázis összes élemiszerének meg lehessen nézni a fent felsorolt tulajdonságait.
@@ -349,14 +349,14 @@ Az oldalon legyen lehetőség, hogy arra az oldalra navigálhassak, amin éppen 
 ><u>***Táplálékkiegészítők listája***</u><br>
 
 Az oldalon látható egy táblázat, mely megjeleníti a különböző táplálékkiegészítők tulajdonságait:
->-megnevezés
->-leírás
->-adagolási javaslat
->-kalória tartalom
->-fehérje tartalom
->-szénhidrát tartalom
->-zsír tartalom
->-allergén információ
+>- megnevezés
+>- leírás
+>- adagolási javaslat
+>- kalória tartalom
+>- fehérje tartalom
+>- szénhidrát tartalom
+>- zsír tartalom
+>- allergén információ
 
 <u>*Elfogadási kritérium:*</u><br>
 >Az adatbázis összes táplálékkiegészítőjének meg lehessen nézni a fent felsorolt tulajdonságait.
@@ -433,7 +433,7 @@ A táplálékkiegészítők legyenek rendezhetők a különböző adataik alapj�
 | Projektmegvalósítás |   |
 | :------------ |:---------------:|
 | prioritás      | magas |
-| projekt időtartama  | 10 hét  |
+| projekt időtartama  | 5 hét  |
 
 **További fejlesztési lehetőségek**
 - A listázási oldalakon lapozó készítése.
@@ -441,4 +441,3 @@ A táplálékkiegészítők legyenek rendezhetők a különböző adataik alapj�
 - Lista vagy kártyanézet.
 - A főoldalon további hasznos információk megjelenítése.
 - A listaoldalakon az adatok sorrendjének átrendezhetősége.
-- A listaoldalakon összegzések elhelyezése.
