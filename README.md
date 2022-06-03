@@ -159,7 +159,7 @@ A gyakorlatok között lehessen keresni.
 <br>
 
 
-## 2. Edzésterv összeállító
+## 3. Edzéstervek
 
 ---
 ><u>***Navigáció***</u><br>
@@ -172,74 +172,60 @@ Az oldalon legyen lehetőség, hogy arra az oldalra navigálhassak, amin éppen 
 <br>
 
 ---
-><u>***Gyakorlatok listája***</u><br>
+Edzéstípus választási lehetőség. 
+><u>***Edzéstervek listája***</u><br>
 
-A kiválasztott edzéstíptushoz tartozó gyakorlatok listája látható az oldalon.<br>
+A kiválasztott edzéstíptushoz tartozó edzéstervek listája látható az oldalon.<br>
 
 <u>*Elfogadási kritérium:*</u><br>
->A gyakorlatok következő adatait látjuk az oldalon:
+>Az edzéstervek következő adatait látjuk az oldalon:
 >- megnevezés
->- rövid leírás
->- megdolgoztatott izomcsoport
->- kép (ha van)
->- szériaszám
->- ismétlésszám
+>- edzéstípus
+>- a hét napjai
+>- gyakorlatok
 
 <br>
 
 ---
-><u>***Új gyakorlat felvétele***</u><br>
+><u>***Új edzésterv felvétele***</u><br>
 
-Adminisztrátori jogosultsággal rendelkező regisztrált felhasználó új gyakorlatot vehet fel a meglévők mellé.
+A felhasználó saját új ezdéstervet hozhat létre.
 
 <u>*Elfogadási kritérium:*</u><br>
->Adminisztrátori jogosultsággal rendelkező felhasználók számára látható egy új gyakorlat hozzáadására szolgáló felület:
->- az új gyakorlat minden adata rögzíthető
+>A felhasználók számára látható egy új edzésterv hozzáadására szolgáló felület:
+>- az új edzésterv minden adata rögzíthető
 >- a feladat végeztével az adatok az adatbázisba mentődnek
->- a gyakorlatok listája bővül az új elemmel
+>- a edzéstervek listája bővül az új elemmel
 
 <br>
 
 ---
-><u>***Gyakorlat módosítása***</u><br>
+><u>***Edzésterv módosítása***</u><br>
 
-Adminisztrátori jogosultsággal rendelkező regisztrált felhasználó módosíthassa, karbantarthassa az egyes gyakorlatokat.
+A felhasználó módosíthassa a saját edzésterveit.
 
 <u>*Elfogadási kritérium:*</u><br>
->Adminisztrátori jogosultsággal rendelkező felhasználók egy gyakorlatot kiválasztva:
->- módosíthassák a gyakorlat adatait
+>A felhasználók egy edzéstervet kiválasztva:
+>- módosíthassák az edzésterv adatait
 >- a feladat végeztével az adatok az adatbázisba mentődnek
->- a gyakorlatok listája frissül a módosított adatokkal
+>- az edzéstervek listája frissül a módosított adatokkal
 
 <br>
 
 ---
-><u>***Gyakorlat törlése***</u><br>
+><u>***Edzésterv törlése***</u><br>
 
-Adminisztrátori jogosultsággal rendelkező regisztrált felhasználó törölhessen gyakorlatot.
-
-<u>*Elfogadási kritérium:*</u><br>
->Adminisztrátori jogosultsággal rendelkező felhasználó egy gyakorlatot kiválasztva:
->- törölhesse a gyakorlatot
->- egy megerősítő üzenet jelenjen meg, hogy valóban törölni szerené-e a gyakorlatot
->- véglegesen törölhesse a gyakorlatot az adatbázisból vagy visszavonhassa a törlési szándékot
->- a feladat végeztével a gyakorlat az adatbázisból törlődjön
->- a gyakorlatok listája frissüljön
-
-<br>
-
----
-><u>***Szűrés***</u><br>
-
-A gyakorlatok között lehessen keresni.
+A felhasználó törölhesse a saját ezdéstervét.
 
 <u>*Elfogadási kritérium:*</u><br>
->Egy listából kiválasztható, hogy milyen adat alapján történjen a szűrés (pl.: megnevezés, izomcsoport...).<br>
-
->Egy megadott érték (kulcsszó) alapján csak azok a gyakorlatok jelenjenek meg, amelyekre a megadott szűrési érték illik
+>A felhasználók egy edzéstervet kiválasztva:
+>- törölhesse saját edzéstervét
+>- egy megerősítő üzenet jelenjen meg, hogy valóban törölni szerené-e az edzéstervet
+>- véglegesen törölhesse az edzéstervet az adatbázisból vagy visszavonhassa a törlési szándékot
+>- a feladat végeztével az edzésterv az adatbázisból törlődjön
+>- az edzéstervek listája frissüljön
 
 <br>
-
 
 ## 4. Kalóriatáblázat
 ---
@@ -436,9 +422,10 @@ A táplálékkiegészítők legyenek rendezhetők a különböző adataik alapj�
 | prioritás      | magas |
 | projekt időtartama  | 5 hét  |
 
-**További fejlesztési lehetőségek**
-- A listázási oldalakon lapozó készítése.
-- Hibaüzenetek megjelenítése hibás adatmegadás esetén (validálás).
-- Lista vagy kártyanézet.
+**Továbbfejlesztési lehetőségek**
+- Új entitások (pl.: Személyi edző, Edzőterem).
+- Pro csomag vásárlási lehetőség.
+- Videótár.
+- Lista vagy kártyanézet választási lehetőség.
 - A főoldalon további hasznos információk megjelenítése.
-- A listaoldalakon az adatok sorrendjének átrendezhetősége.
+- Választható legyen az oldal nyelve.
