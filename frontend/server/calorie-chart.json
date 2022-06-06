@@ -1,8 +1,9 @@
 {
   "calorie-chart": [
       {
+          "_id": 1,
           "name": "Tehéntej pasztőrözött (2.8% zsírtart)",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 260,
           "kcal": 62,
           "protein": 3.4,
@@ -12,8 +13,9 @@
           "cholesterol": 10
       },
       {
+          "_id": 2,
           "name": "Tehéntej pasztőrözött (1,5% zsírtart)",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 210,
           "kcal": 50,
           "protein": 3.4,
@@ -23,8 +25,9 @@
           "cholesterol": 5
       },
       {
+          "_id": 3,
           "name": "Tej ultrapasztőrözött, tartós",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 264,
           "kcal": 63,
           "protein": 3.4,
@@ -34,8 +37,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 4,
           "name": "Juhtej",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 475,
           "kcal": 113,
           "protein": 6.1,
@@ -45,8 +49,9 @@
           "cholesterol": 11
       },
       {
+          "_id": 5,
           "name": "Tej, csokoládés",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 302,
           "kcal": 72,
           "protein": 3.2,
@@ -56,8 +61,9 @@
           "cholesterol": 10
       },
       {
+          "_id": 6,
           "name": "Tej, kakaós sovány",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 0,
           "kcal": 66,
           "protein": 3.5,
@@ -67,8 +73,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 7,
           "name": "Habtejszín",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 1268,
           "kcal": 302,
           "protein": 2.6,
@@ -78,8 +85,9 @@
           "cholesterol": 109
       },
       {
+          "_id": 8,
           "name": "Kávétejszín",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 731,
           "kcal": 174,
           "protein": 3.3,
@@ -89,8 +97,9 @@
           "cholesterol": 34
       },
       {
+          "_id": 9,
           "name": "Tejföl (20% zsírtartalommal)",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 907,
           "kcal": 216,
           "protein": 3.3,
@@ -100,8 +109,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 10,
           "name": "Tejföl (12% zsírtartalommal)",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 596,
           "kcal": 142,
           "protein": 3.4,
@@ -111,8 +121,9 @@
           "cholesterol": 59
       },
       {
+          "_id": 11,
           "name": "Joghurt, gyümölcsös",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 311,
           "kcal": 74,
           "protein": 3.5,
@@ -122,8 +133,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 12,
           "name": "Kaukázusi kefír 2,7%",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 0,
           "kcal": 52,
           "protein": 3.2,
@@ -133,8 +145,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 13,
           "name": "Kefír",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 277,
           "kcal": 66,
           "protein": 3.4,
@@ -144,8 +157,9 @@
           "cholesterol": 12
       },
       {
+          "_id": 14,
           "name": "Juhtúró, gomolya",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 0,
           "kcal": 283,
           "protein": 18.2,
@@ -155,8 +169,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 15,
           "name": "Körözött",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 0,
           "kcal": 275,
           "protein": 18.2,
@@ -166,8 +181,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 16,
           "name": "Tehéntúró, félzsíros",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 617,
           "kcal": 147,
           "protein": 16.2,
@@ -177,8 +193,9 @@
           "cholesterol": 30
       },
       {
+          "_id": 17,
           "name": "Túró Rudi",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 1478,
           "kcal": 354,
           "protein": 14.5,
@@ -188,8 +205,9 @@
           "cholesterol": 0
       },
       {
-          "name": "Krémtúró, mazsolás-vaníliás",
-          "foodGroup": "tej és tejtermékek",
+          "_id": 18,
+          "name": "Krémtúró, mazsolás0vaníliás",
+          "food0group": "tej és tejtermékek",
           "energy": 958,
           "kcal": 228,
           "protein": 15.1,
@@ -199,8 +217,9 @@
           "cholesterol": 26
       },
       {
+          "_id": 19,
           "name": "Zsíros tejpor",
-          "foodGroup": "tej és tejtermékek",
+          "food0group": "tej és tejtermékek",
           "energy": 2129,
           "kcal": 507,
           "protein": 25.5,
@@ -210,8 +229,9 @@
           "cholesterol": 92
       },
       {
+          "_id": 20,
           "name": "Anikó sajt (félkemény)",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1466,
           "kcal": 349,
           "protein": 24.2,
@@ -221,8 +241,9 @@
           "cholesterol": 71
       },
       {
+          "_id": 21,
           "name": "Balaton sajt (félkemény)",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1491,
           "kcal": 355,
           "protein": 22.8,
@@ -232,8 +253,9 @@
           "cholesterol": 100
       },
       {
+          "_id": 22,
           "name": "Camambert penésszel érő sajt (Bakony)",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1294,
           "kcal": 308,
           "protein": 21.5,
@@ -243,8 +265,9 @@
           "cholesterol": 62
       },
       {
+          "_id": 23,
           "name": "Camambert penésszel érő sajt (Tihany)",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1642,
           "kcal": 391,
           "protein": 18.2,
@@ -254,8 +277,9 @@
           "cholesterol": 100
       },
       {
+          "_id": 24,
           "name": "Camping ömlesztett sajt",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1348,
           "kcal": 321,
           "protein": 16.5,
@@ -265,8 +289,9 @@
           "cholesterol": 96
       },
       {
+          "_id": 25,
           "name": "Edami sajt (félkemény)",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1520,
           "kcal": 362,
           "protein": 26.2,
@@ -276,8 +301,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 26,
           "name": "Ementali, Pannónia (kemény)",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1655,
           "kcal": 394,
           "protein": 27.8,
@@ -287,8 +313,9 @@
           "cholesterol": 92
       },
       {
+          "_id": 27,
           "name": "Göcseji csemegesajt (lágy)",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1319,
           "kcal": 314,
           "protein": 22.2,
@@ -298,8 +325,9 @@
           "cholesterol": 96
       },
       {
+          "_id": 28,
           "name": "Karaván füstölt, ömlesztett sajt",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1483,
           "kcal": 353,
           "protein": 22.3,
@@ -309,8 +337,9 @@
           "cholesterol": 100
       },
       {
+          "_id": 29,
           "name": "Márványsajtkrém, tejszínes penésszel érő",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1449,
           "kcal": 345,
           "protein": 13.7,
@@ -320,8 +349,9 @@
           "cholesterol": 88
       },
       {
+          "_id": 30,
           "name": "Parenyica, füstölt sonka sajt(félkem.)",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1663,
           "kcal": 396,
           "protein": 26,
@@ -331,8 +361,9 @@
           "cholesterol": 135
       },
       {
+          "_id": 31,
           "name": "Parmezán jellegű sajt(kemény)",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1617,
           "kcal": 385,
           "protein": 26.8,
@@ -342,8 +373,9 @@
           "cholesterol": 68
       },
       {
+          "_id": 32,
           "name": "Tejszínes krémsajt (lágy)",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1126,
           "kcal": 268,
           "protein": 2.8,
@@ -353,8 +385,9 @@
           "cholesterol": 96
       },
       {
+          "_id": 33,
           "name": "Trappista sajt (félkemény)",
-          "foodGroup": "sajtok",
+          "food0group": "sajtok",
           "energy": 1600,
           "kcal": 381,
           "protein": 27.7,
@@ -364,8 +397,9 @@
           "cholesterol": 100
       },
       {
+          "_id": 34,
           "name": "Bélszín",
-          "foodGroup": "marhahús",
+          "food0group": "marhahús",
           "energy": 440,
           "kcal": 105,
           "protein": 22,
@@ -375,8 +409,9 @@
           "cholesterol": 35
       },
       {
+          "_id": 35,
           "name": "Marha felsál",
-          "foodGroup": "marhahús",
+          "food0group": "marhahús",
           "energy": 1046,
           "kcal": 249,
           "protein": 17,
@@ -386,8 +421,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 36,
           "name": "Marha lapocka",
-          "foodGroup": "marhahús",
+          "food0group": "marhahús",
           "energy": 617,
           "kcal": 147,
           "protein": 21,
@@ -397,8 +433,9 @@
           "cholesterol": 60
       },
       {
+          "_id": 37,
           "name": "Marha hátszín, lapos",
-          "foodGroup": "marhahús",
+          "food0group": "marhahús",
           "energy": 970,
           "kcal": 231,
           "protein": 15,
@@ -408,8 +445,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 38,
           "name": "Marha hátszín, magas",
-          "foodGroup": "marhahús",
+          "food0group": "marhahús",
           "energy": 1008,
           "kcal": 240,
           "protein": 19,
@@ -419,8 +457,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 39,
           "name": "Marha hátszín, puha",
-          "foodGroup": "marhahús",
+          "food0group": "marhahús",
           "energy": 1046,
           "kcal": 249,
           "protein": 19.7,
@@ -430,8 +469,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 40,
           "name": "Marha tarja",
-          "foodGroup": "marhahús",
+          "food0group": "marhahús",
           "energy": 588,
           "kcal": 140,
           "protein": 20,
@@ -441,8 +481,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 41,
           "name": "Marhanyelv",
-          "foodGroup": "marhahús",
+          "food0group": "marhahús",
           "energy": 819,
           "kcal": 196,
           "protein": 16,
@@ -452,8 +493,9 @@
           "cholesterol": 108
       },
       {
+          "_id": 42,
           "name": "Marhaszegy",
-          "foodGroup": "marhahús",
+          "food0group": "marhahús",
           "energy": 1105,
           "kcal": 263,
           "protein": 16,
@@ -463,8 +505,9 @@
           "cholesterol": 108
       },
       {
+          "_id": 43,
           "name": "Sertés borda (szelet)",
-          "foodGroup": "sertéshús",
+          "food0group": "sertéshús",
           "energy": 755,
           "kcal": 180,
           "protein": 21,
@@ -474,8 +517,9 @@
           "cholesterol": 77
       },
       {
+          "_id": 44,
           "name": "Sertés comb, karaj",
-          "foodGroup": "sertéshús",
+          "food0group": "sertéshús",
           "energy": 685,
           "kcal": 163,
           "protein": 21,
@@ -485,8 +529,9 @@
           "cholesterol": 60
       },
       {
+          "_id": 45,
           "name": "Sertés csülök",
-          "foodGroup": "sertéshús",
+          "food0group": "sertéshús",
           "energy": 1415,
           "kcal": 337,
           "protein": 16,
@@ -496,8 +541,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 46,
           "name": "Sertés dagadó",
-          "foodGroup": "sertéshús",
+          "food0group": "sertéshús",
           "energy": 1852,
           "kcal": 441,
           "protein": 12,
@@ -507,8 +553,9 @@
           "cholesterol": 80
       },
       {
+          "_id": 47,
           "name": "Sertés lapocka",
-          "foodGroup": "sertéshús",
+          "food0group": "sertéshús",
           "energy": 1239,
           "kcal": 295,
           "protein": 17.5,
@@ -518,8 +565,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 48,
           "name": "Sertés nyak",
-          "foodGroup": "sertéshús",
+          "food0group": "sertéshús",
           "energy": 630,
           "kcal": 151,
           "protein": 17,
@@ -529,8 +577,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 49,
           "name": "Sertés nyelv",
-          "foodGroup": "sertéshús",
+          "food0group": "sertéshús",
           "energy": 0,
           "kcal": 220,
           "protein": 17,
@@ -540,8 +589,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 50,
           "name": "Sertés tarja",
-          "foodGroup": "sertéshús",
+          "food0group": "sertéshús",
           "energy": 0,
           "kcal": 296,
           "protein": 17,
@@ -551,8 +601,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 51,
           "name": "Vesepecsenye (szelet)",
-          "foodGroup": "sertéshús",
+          "food0group": "sertéshús",
           "energy": 537,
           "kcal": 128,
           "protein": 22,
@@ -562,8 +613,9 @@
           "cholesterol": 60
       },
       {
+          "_id": 52,
           "name": "Borjú bélszín",
-          "foodGroup": "borjúhús",
+          "food0group": "borjúhús",
           "energy": 499,
           "kcal": 119,
           "protein": 21,
@@ -573,8 +625,9 @@
           "cholesterol": 78
       },
       {
+          "_id": 53,
           "name": "Borjú borda (szelet)",
-          "foodGroup": "borjúhús",
+          "food0group": "borjúhús",
           "energy": 613,
           "kcal": 147,
           "protein": 19,
@@ -584,8 +637,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 54,
           "name": "Borjú csülök",
-          "foodGroup": "borjúhús",
+          "food0group": "borjúhús",
           "energy": 511,
           "kcal": 122,
           "protein": 21,
@@ -595,8 +649,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 55,
           "name": "Borjú farhát",
-          "foodGroup": "borjúhús",
+          "food0group": "borjúhús",
           "energy": 429,
           "kcal": 103,
           "protein": 22,
@@ -606,8 +661,9 @@
           "cholesterol": 65
       },
       {
+          "_id": 56,
           "name": "Borjú mell",
-          "foodGroup": "borjúhús",
+          "food0group": "borjúhús",
           "energy": 787,
           "kcal": 188,
           "protein": 19,
@@ -617,8 +673,9 @@
           "cholesterol": 60
       },
       {
+          "_id": 57,
           "name": "Borjú nyelv",
-          "foodGroup": "borjúhús",
+          "food0group": "borjúhús",
           "energy": 756,
           "kcal": 181,
           "protein": 17,
@@ -628,8 +685,9 @@
           "cholesterol": 100
       },
       {
+          "_id": 58,
           "name": "Bárányhús",
-          "foodGroup": "borjúhús",
+          "food0group": "borjúhús",
           "energy": 0,
           "kcal": 0,
           "protein": 0,
@@ -639,8 +697,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 59,
           "name": "Báránycomb",
-          "foodGroup": "borjúhús",
+          "food0group": "borjúhús",
           "energy": 724,
           "kcal": 173,
           "protein": 20,
@@ -650,8 +709,9 @@
           "cholesterol": 84
       },
       {
+          "_id": 60,
           "name": "Bárányborda",
-          "foodGroup": "borjúhús",
+          "food0group": "borjúhús",
           "energy": 891,
           "kcal": 213,
           "protein": 18,
@@ -661,8 +721,9 @@
           "cholesterol": 66
       },
       {
+          "_id": 61,
           "name": "Bélszín",
-          "foodGroup": "borjúhús",
+          "food0group": "borjúhús",
           "energy": 469,
           "kcal": 112,
           "protein": 20,
@@ -672,8 +733,9 @@
           "cholesterol": 66
       },
       {
+          "_id": 62,
           "name": "Őz",
-          "foodGroup": "vadhús",
+          "food0group": "vadhús",
           "energy": 509,
           "kcal": 122,
           "protein": 22,
@@ -683,8 +745,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 63,
           "name": "Szarvas",
-          "foodGroup": "vadhús",
+          "food0group": "vadhús",
           "energy": 517,
           "kcal": 123,
           "protein": 20.7,
@@ -694,8 +757,9 @@
           "cholesterol": 110
       },
       {
+          "_id": 64,
           "name": "Vaddisznó",
-          "foodGroup": "vadhús",
+          "food0group": "vadhús",
           "energy": 454,
           "kcal": 108,
           "protein": 20,
@@ -705,8 +769,9 @@
           "cholesterol": 65
       },
       {
+          "_id": 65,
           "name": "Vadnyúl",
-          "foodGroup": "vadhús",
+          "food0group": "vadhús",
           "energy": 482,
           "kcal": 115,
           "protein": 22,
@@ -716,8 +781,9 @@
           "cholesterol": 65
       },
       {
+          "_id": 66,
           "name": "Csirke",
-          "foodGroup": "szárnyasok",
+          "food0group": "szárnyasok",
           "energy": 0,
           "kcal": 124,
           "protein": 22.8,
@@ -727,8 +793,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 67,
           "name": "Csirkecomb (bőrös)",
-          "foodGroup": "szárnyasok",
+          "food0group": "szárnyasok",
           "energy": 769,
           "kcal": 184,
           "protein": 18,
@@ -738,8 +805,9 @@
           "cholesterol": 80
       },
       {
+          "_id": 68,
           "name": "Csirkemell (szelet)",
-          "foodGroup": "szárnyasok",
+          "food0group": "szárnyasok",
           "energy": 440,
           "kcal": 105,
           "protein": 23,
@@ -749,8 +817,9 @@
           "cholesterol": 44
       },
       {
+          "_id": 69,
           "name": "Kacsamell",
-          "foodGroup": "szárnyasok",
+          "food0group": "szárnyasok",
           "energy": 510,
           "kcal": 122,
           "protein": 20,
@@ -760,8 +829,9 @@
           "cholesterol": 100
       },
       {
+          "_id": 70,
           "name": "Kacsa, pecsenye",
-          "foodGroup": "szárnyasok",
+          "food0group": "szárnyasok",
           "energy": 0,
           "kcal": 191,
           "protein": 19,
@@ -771,8 +841,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 71,
           "name": "Liba, pecsenye",
-          "foodGroup": "szárnyasok",
+          "food0group": "szárnyasok",
           "energy": 853,
           "kcal": 203,
           "protein": 18.5,
@@ -782,8 +853,9 @@
           "cholesterol": 86
       },
       {
+          "_id": 72,
           "name": "Pulykahús",
-          "foodGroup": "szárnyasok",
+          "food0group": "szárnyasok",
           "energy": 0,
           "kcal": 169,
           "protein": 20.5,
@@ -793,8 +865,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 73,
           "name": "Pulykamell",
-          "foodGroup": "szárnyasok",
+          "food0group": "szárnyasok",
           "energy": 452,
           "kcal": 108,
           "protein": 24,
@@ -804,8 +877,9 @@
           "cholesterol": 37
       },
       {
+          "_id": 74,
           "name": "Tyúk",
-          "foodGroup": "szárnyasok",
+          "food0group": "szárnyasok",
           "energy": 0,
           "kcal": 140,
           "protein": 19,
@@ -815,8 +889,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 75,
           "name": "Csirkemáj",
-          "foodGroup": "belsőségek",
+          "food0group": "belsőségek",
           "energy": 538,
           "kcal": 128,
           "protein": 20,
@@ -826,8 +901,9 @@
           "cholesterol": 490
       },
       {
+          "_id": 76,
           "name": "Sertésmáj",
-          "foodGroup": "belsőségek",
+          "food0group": "belsőségek",
           "energy": 547,
           "kcal": 131,
           "protein": 21,
@@ -837,8 +913,9 @@
           "cholesterol": 354
       },
       {
+          "_id": 77,
           "name": "Pacal",
-          "foodGroup": "belsőségek",
+          "food0group": "belsőségek",
           "energy": 706,
           "kcal": 168,
           "protein": 15.9,
@@ -848,8 +925,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 78,
           "name": "Velő (mind)",
-          "foodGroup": "belsőségek",
+          "food0group": "belsőségek",
           "energy": 0,
           "kcal": 117,
           "protein": 9,
@@ -859,8 +937,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 79,
           "name": "Vese (borjú)",
-          "foodGroup": "belsőségek",
+          "food0group": "belsőségek",
           "energy": 469,
           "kcal": 112,
           "protein": 16,
@@ -870,8 +949,9 @@
           "cholesterol": 364
       },
       {
+          "_id": 80,
           "name": "Csabai szárazkolbász",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 1982,
           "kcal": 472,
           "protein": 19.8,
@@ -881,8 +961,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 81,
           "name": "Cserkészkolbász",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 1449,
           "kcal": 345,
           "protein": 16.3,
@@ -892,8 +973,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 82,
           "name": "Farmer felvágott",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 2054,
           "kcal": 489,
           "protein": 17,
@@ -903,8 +985,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 83,
           "name": "Füstölt, főtt tarja",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 853,
           "kcal": 203,
           "protein": 15,
@@ -914,8 +997,9 @@
           "cholesterol": 95
       },
       {
+          "_id": 84,
           "name": "Füstölt kolbász",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 0,
           "kcal": 301,
           "protein": 15.5,
@@ -925,8 +1009,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 85,
           "name": "Disznósajt",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 1357,
           "kcal": 323,
           "protein": 14.5,
@@ -936,8 +1021,9 @@
           "cholesterol": 110
       },
       {
+          "_id": 86,
           "name": "Házi szárazkolbász",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 0,
           "kcal": 511,
           "protein": 23,
@@ -947,8 +1033,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 87,
           "name": "Hurka, májas",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 1289,
           "kcal": 307,
           "protein": 14,
@@ -958,8 +1045,9 @@
           "cholesterol": 150
       },
       {
+          "_id": 88,
           "name": "Hurka, véres",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 1264,
           "kcal": 301,
           "protein": 13.1,
@@ -969,8 +1057,9 @@
           "cholesterol": 170
       },
       {
+          "_id": 89,
           "name": "Kenőmájas",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 1361,
           "kcal": 324,
           "protein": 15.9,
@@ -980,8 +1069,9 @@
           "cholesterol": 224
       },
       {
+          "_id": 90,
           "name": "Lecsókolbász",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 1180,
           "kcal": 281,
           "protein": 16.3,
@@ -991,8 +1081,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 91,
           "name": "Mortadella",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 1441,
           "kcal": 343,
           "protein": 13.7,
@@ -1002,8 +1093,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 92,
           "name": "Olasz felvágott",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 1441,
           "kcal": 343,
           "protein": 13.7,
@@ -1013,8 +1105,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 93,
           "name": "Pápai páros",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 0,
           "kcal": 349,
           "protein": 12.3,
@@ -1024,8 +1117,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 94,
           "name": "Párizsi, krinolin, szafaládé",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 920,
           "kcal": 219,
           "protein": 11.9,
@@ -1035,8 +1129,9 @@
           "cholesterol": 75
       },
       {
+          "_id": 95,
           "name": "Sertésmájkrém",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 928,
           "kcal": 221,
           "protein": 13.3,
@@ -1046,8 +1141,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 96,
           "name": "Téliszalámi",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 2234,
           "kcal": 532,
           "protein": 25.1,
@@ -1057,8 +1153,9 @@
           "cholesterol": 150
       },
       {
+          "_id": 97,
           "name": "Turista felvágott",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 0,
           "kcal": 403,
           "protein": 28,
@@ -1068,8 +1165,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 98,
           "name": "Virsli",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 1000,
           "kcal": 238,
           "protein": 12.5,
@@ -1079,8 +1177,9 @@
           "cholesterol": 72
       },
       {
+          "_id": 99,
           "name": "Angolszalonna",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 2104,
           "kcal": 501,
           "protein": 16.8,
@@ -1090,8 +1189,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 100,
           "name": "Császárhús, főtt",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 2713,
           "kcal": 646,
           "protein": 10,
@@ -1101,8 +1201,9 @@
           "cholesterol": 140
       },
       {
+          "_id": 101,
           "name": "Gépsonka",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 670,
           "kcal": 157,
           "protein": 22.6,
@@ -1112,8 +1213,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 102,
           "name": "Füst. Pulykamellsonka",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 0,
           "kcal": 101,
           "protein": 22,
@@ -1123,8 +1225,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 103,
           "name": "Szalonna, bacon",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 0,
           "kcal": 486,
           "protein": 16.8,
@@ -1134,8 +1237,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 104,
           "name": "Szalonna, csécsi",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 0,
           "kcal": 814,
           "protein": 3.1,
@@ -1145,8 +1249,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 105,
           "name": "Szalonna, füstölt",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 3072,
           "kcal": 716,
           "protein": 9,
@@ -1156,8 +1261,9 @@
           "cholesterol": 105
       },
       {
+          "_id": 106,
           "name": "Szalonna, kolozsvári",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 2696,
           "kcal": 642,
           "protein": 18.1,
@@ -1167,8 +1273,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 107,
           "name": "Tepertő",
-          "foodGroup": "húskészítmények",
+          "food0group": "húskészítmények",
           "energy": 0,
           "kcal": 823,
           "protein": 12,
@@ -1178,8 +1285,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 108,
           "name": "Angolna",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 1239,
           "kcal": 295,
           "protein": 15,
@@ -1189,8 +1297,9 @@
           "cholesterol": 142
       },
       {
+          "_id": 109,
           "name": "Busa",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 395,
           "kcal": 94,
           "protein": 18,
@@ -1200,8 +1309,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 110,
           "name": "Csuka",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 296,
           "kcal": 71,
           "protein": 17,
@@ -1211,8 +1321,9 @@
           "cholesterol": 50
       },
       {
+          "_id": 111,
           "name": "Fekete kagyló",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 354,
           "kcal": 85,
           "protein": 12,
@@ -1222,8 +1333,9 @@
           "cholesterol": 108
       },
       {
+          "_id": 112,
           "name": "Fogas",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 136,
           "kcal": 86,
           "protein": 19,
@@ -1233,8 +1345,9 @@
           "cholesterol": 30
       },
       {
+          "_id": 113,
           "name": "Garnélarák",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 233,
           "kcal": 56,
           "protein": 11,
@@ -1244,8 +1357,9 @@
           "cholesterol": 150
       },
       {
+          "_id": 114,
           "name": "Harcsa",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 336,
           "kcal": 280,
           "protein": 17.5,
@@ -1255,8 +1369,9 @@
           "cholesterol": 80
       },
       {
+          "_id": 115,
           "name": "Heck",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 0,
           "kcal": 89,
           "protein": 20.2,
@@ -1266,8 +1381,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 116,
           "name": "Keszeg",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 320,
           "kcal": 77,
           "protein": 16.9,
@@ -1277,8 +1393,9 @@
           "cholesterol": 75
       },
       {
+          "_id": 117,
           "name": "Lazac (friss)",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 838,
           "kcal": 200,
           "protein": 20,
@@ -1288,8 +1405,9 @@
           "cholesterol": 66
       },
       {
+          "_id": 118,
           "name": "Lepényhal",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 492,
           "kcal": 118,
           "protein": 21,
@@ -1299,8 +1417,9 @@
           "cholesterol": 60
       },
       {
+          "_id": 119,
           "name": "Makréla",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 758,
           "kcal": 182,
           "protein": 19,
@@ -1310,8 +1429,9 @@
           "cholesterol": 100
       },
       {
+          "_id": 120,
           "name": "Nyelvhal",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 354,
           "kcal": 85,
           "protein": 19,
@@ -1321,8 +1441,9 @@
           "cholesterol": 50
       },
       {
+          "_id": 121,
           "name": "Pisztráng",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 451,
           "kcal": 108,
           "protein": 20,
@@ -1332,8 +1453,9 @@
           "cholesterol": 56
       },
       {
+          "_id": 122,
           "name": "Ponty (tükör)",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 613,
           "kcal": 146,
           "protein": 15.8,
@@ -1343,8 +1465,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 123,
           "name": "Sügér",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 329,
           "kcal": 79,
           "protein": 18,
@@ -1354,8 +1477,9 @@
           "cholesterol": 70
       },
       {
+          "_id": 124,
           "name": "Tintahal",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 348,
           "kcal": 83,
           "protein": 16,
@@ -1365,8 +1489,9 @@
           "cholesterol": 150
       },
       {
+          "_id": 125,
           "name": "Tonhal",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 0,
           "kcal": 87,
           "protein": 19.4,
@@ -1376,8 +1501,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 126,
           "name": "Tőkehal",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 329,
           "kcal": 79,
           "protein": 18,
@@ -1387,8 +1513,9 @@
           "cholesterol": 43
       },
       {
+          "_id": 127,
           "name": "Hering, göngyölt",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 0,
           "kcal": 223,
           "protein": 0,
@@ -1398,8 +1525,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 128,
           "name": "Hering, olajos",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 0,
           "kcal": 382,
           "protein": 15.9,
@@ -1409,8 +1537,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 129,
           "name": "Hering, paradicsom.",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 0,
           "kcal": 217,
           "protein": 18.9,
@@ -1420,8 +1549,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 130,
           "name": "Makréla, olajos",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 0,
           "kcal": 0,
           "protein": 0,
@@ -1431,8 +1561,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 131,
           "name": "Makréla, paradics.",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 0,
           "kcal": 0,
           "protein": 0,
@@ -1442,8 +1573,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 132,
           "name": "Szardínia, olajos",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 0,
           "kcal": 292,
           "protein": 22.5,
@@ -1453,8 +1585,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 133,
           "name": "Szardínia, paradics.",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 0,
           "kcal": 0,
           "protein": 0,
@@ -1464,8 +1597,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 134,
           "name": "Tonhal, olajos",
-          "foodGroup": "halak",
+          "food0group": "halak",
           "energy": 0,
           "kcal": 242,
           "protein": 21.5,
@@ -1475,8 +1609,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 135,
           "name": "1 tojás (52g)",
-          "foodGroup": "tojás",
+          "food0group": "tojás",
           "energy": 371,
           "kcal": 89,
           "protein": 7,
@@ -1486,8 +1621,9 @@
           "cholesterol": 234
       },
       {
+          "_id": 136,
           "name": "1 tojássárgája (19g)",
-          "foodGroup": "tojás",
+          "food0group": "tojás",
           "energy": 289,
           "kcal": 69,
           "protein": 3.1,
@@ -1497,8 +1633,9 @@
           "cholesterol": 226
       },
       {
+          "_id": 137,
           "name": "1 tojásfehérje (33 g)",
-          "foodGroup": "tojás",
+          "food0group": "tojás",
           "energy": 80,
           "kcal": 19,
           "protein": 4.2,
@@ -1508,8 +1645,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 138,
           "name": "Tojás",
-          "foodGroup": "tojás",
+          "food0group": "tojás",
           "energy": 0,
           "kcal": 170,
           "protein": 13.5,
@@ -1519,8 +1657,9 @@
           "cholesterol": 460
       },
       {
+          "_id": 139,
           "name": "Alma",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 130,
           "kcal": 31,
           "protein": 0.4,
@@ -1530,8 +1669,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 140,
           "name": "Alma (szárított)",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 1158,
           "kcal": 277,
           "protein": 2,
@@ -1541,8 +1681,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 141,
           "name": "Ananász",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 223,
           "kcal": 53,
           "protein": 0.4,
@@ -1552,8 +1693,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 142,
           "name": "Áfonya",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 218,
           "kcal": 52,
           "protein": 1,
@@ -1563,8 +1705,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 143,
           "name": "Avocado",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 578,
           "kcal": 138,
           "protein": 2,
@@ -1574,8 +1717,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 144,
           "name": "Banán",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 441,
           "kcal": 105,
           "protein": 1.3,
@@ -1585,8 +1729,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 145,
           "name": "Citrom",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 113,
           "kcal": 27,
           "protein": 0.4,
@@ -1596,8 +1741,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 146,
           "name": "Cseresznye",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 265,
           "kcal": 63,
           "protein": 0.8,
@@ -1607,8 +1753,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 147,
           "name": "Datolya (aszalt)",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 1215,
           "kcal": 290,
           "protein": 3,
@@ -1618,8 +1765,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 148,
           "name": "Egres",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 164,
           "kcal": 39,
           "protein": 0.6,
@@ -1629,8 +1777,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 149,
           "name": "Eper",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 148,
           "kcal": 35,
           "protein": 1,
@@ -1640,8 +1789,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 150,
           "name": "Füge (friss)",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 286,
           "kcal": 68,
           "protein": 1,
@@ -1651,8 +1801,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 151,
           "name": "Füge (szárított)",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 1100,
           "kcal": 262,
           "protein": 3.5,
@@ -1662,8 +1813,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 152,
           "name": "Görögdinnye",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 122,
           "kcal": 29,
           "protein": 0.5,
@@ -1673,8 +1825,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 153,
           "name": "Grépfruit",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 151,
           "kcal": 36,
           "protein": 0.5,
@@ -1684,8 +1837,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 154,
           "name": "Körte",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 218,
           "kcal": 52,
           "protein": 1,
@@ -1695,8 +1849,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 155,
           "name": "Kiwi",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 218,
           "kcal": 52,
           "protein": 1,
@@ -1706,8 +1861,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 156,
           "name": "Mandarin",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 189,
           "kcal": 45,
           "protein": 0.7,
@@ -1717,8 +1873,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 157,
           "name": "Mangó",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 242,
           "kcal": 58,
           "protein": 1,
@@ -1728,8 +1885,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 158,
           "name": "Mazsola",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 1231,
           "kcal": 293,
           "protein": 2.4,
@@ -1739,8 +1897,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 159,
           "name": "Málna",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 122,
           "kcal": 29,
           "protein": 1.2,
@@ -1750,8 +1909,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 160,
           "name": "Meggy",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 0,
           "kcal": 52,
           "protein": 0.8,
@@ -1761,8 +1921,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 161,
           "name": "Narancs",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 172,
           "kcal": 41,
           "protein": 0.6,
@@ -1772,8 +1933,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 162,
           "name": "Őszibarack",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 172,
           "kcal": 41,
           "protein": 0.7,
@@ -1783,8 +1945,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 163,
           "name": "Őszibarack befőtt",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 0,
           "kcal": 90,
           "protein": 0.5,
@@ -1794,8 +1957,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 164,
           "name": "Rebarbara",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 31,
           "kcal": 7,
           "protein": 1,
@@ -1805,8 +1969,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 165,
           "name": "Ribizli",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 202,
           "kcal": 48,
           "protein": 1,
@@ -1816,8 +1981,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 166,
           "name": "Ribizli, fekete",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 143,
           "kcal": 34,
           "protein": 0.6,
@@ -1827,8 +1993,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 167,
           "name": "Ringló",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 256,
           "kcal": 61,
           "protein": 0.8,
@@ -1838,8 +2005,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 168,
           "name": "Sárgabarack",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 202,
           "kcal": 48,
           "protein": 0.9,
@@ -1849,8 +2017,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 169,
           "name": "Sárgabarack lekvár",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 0,
           "kcal": 267,
           "protein": 0.4,
@@ -1860,8 +2029,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 170,
           "name": "Sárgadinnye (sárga húsú)",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 168,
           "kcal": 40,
           "protein": 0.3,
@@ -1871,8 +2041,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 171,
           "name": "Szeder",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 139,
           "kcal": 33,
           "protein": 0.8,
@@ -1882,8 +2053,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 172,
           "name": "Szilva (besztercei)",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 244,
           "kcal": 58,
           "protein": 0.7,
@@ -1893,8 +2065,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 173,
           "name": "Szilva (aszalt)",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 1126,
           "kcal": 268,
           "protein": 2.3,
@@ -1904,8 +2077,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 174,
           "name": "Szőlő",
-          "foodGroup": "gyümölcs",
+          "food0group": "gyümölcs",
           "energy": 328,
           "kcal": 78,
           "protein": 0.6,
@@ -1915,8 +2089,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 175,
           "name": "Brokkoli",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 100,
           "kcal": 24,
           "protein": 3.3,
@@ -1926,8 +2101,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 176,
           "name": "Burgonya",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 395,
           "kcal": 94,
           "protein": 2.5,
@@ -1937,8 +2113,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 177,
           "name": "Cékla",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 130,
           "kcal": 31,
           "protein": 1.3,
@@ -1948,8 +2125,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 178,
           "name": "Cukkini",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 134,
           "kcal": 32,
           "protein": 1.5,
@@ -1959,8 +2137,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 179,
           "name": "Fejes saláta",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 71,
           "kcal": 17,
           "protein": 1.4,
@@ -1970,8 +2149,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 180,
           "name": "Fokhagyma",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 575,
           "kcal": 137,
           "protein": 6.8,
@@ -1981,8 +2161,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 181,
           "name": "Karalábé",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 164,
           "kcal": 39,
           "protein": 2.1,
@@ -1992,8 +2173,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 182,
           "name": "Karfiol",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 126,
           "kcal": 30,
           "protein": 2.4,
@@ -2003,8 +2185,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 183,
           "name": "Káposzta",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 134,
           "kcal": 32,
           "protein": 1.6,
@@ -2014,8 +2197,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 184,
           "name": "Kelkáposzta",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 147,
           "kcal": 35,
           "protein": 3.6,
@@ -2025,8 +2209,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 185,
           "name": "Kelbimbó",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 144,
           "kcal": 34,
           "protein": 4,
@@ -2036,8 +2221,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 186,
           "name": "Kínaikel",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 50,
           "kcal": 12,
           "protein": 1,
@@ -2047,8 +2233,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 187,
           "name": "Kukorica, csemege",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 550,
           "kcal": 131,
           "protein": 4.7,
@@ -2058,8 +2245,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 188,
           "name": "Olivabogyó",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 492,
           "kcal": 118,
           "protein": 1,
@@ -2069,8 +2257,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 189,
           "name": "Padlizsán",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 113,
           "kcal": 27,
           "protein": 1.3,
@@ -2080,8 +2269,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 190,
           "name": "Paradicsom",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 97,
           "kcal": 23,
           "protein": 1,
@@ -2091,8 +2281,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 191,
           "name": "Petrezselyem gyökér",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 126,
           "kcal": 30,
           "protein": 1.2,
@@ -2102,8 +2293,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 192,
           "name": "Petrezselyem zöldje",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 260,
           "kcal": 62,
           "protein": 4.4,
@@ -2113,8 +2305,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 193,
           "name": "Póréhagyma",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 160,
           "kcal": 38,
           "protein": 2.2,
@@ -2124,8 +2317,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 194,
           "name": "Retek",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 63,
           "kcal": 15,
           "protein": 1.2,
@@ -2135,8 +2329,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 195,
           "name": "Sárgarépa",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 168,
           "kcal": 40,
           "protein": 1.2,
@@ -2146,8 +2341,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 196,
           "name": "Sóska",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 101,
           "kcal": 24,
           "protein": 2.4,
@@ -2157,8 +2353,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 197,
           "name": "Spárga",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 71,
           "kcal": 17,
           "protein": 2,
@@ -2168,8 +2365,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 198,
           "name": "Spenót",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 84,
           "kcal": 20,
           "protein": 2.3,
@@ -2179,8 +2377,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 199,
           "name": "Sütőtök",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 0,
           "kcal": 80,
           "protein": 1.5,
@@ -2190,8 +2389,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 200,
           "name": "Szójacsíra",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 210,
           "kcal": 50,
           "protein": 6,
@@ -2201,8 +2401,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 201,
           "name": "Uborka",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 50,
           "kcal": 12,
           "protein": 1,
@@ -2212,8 +2413,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 202,
           "name": "Vöröshagyma",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 168,
           "kcal": 40,
           "protein": 1.2,
@@ -2223,8 +2425,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 203,
           "name": "Tök, főző",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 130,
           "kcal": 31,
           "protein": 1.1,
@@ -2234,8 +2437,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 204,
           "name": "Zellergumó",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 121,
           "kcal": 29,
           "protein": 1.4,
@@ -2245,8 +2449,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 205,
           "name": "Zellergyökér",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 44,
           "kcal": 10,
           "protein": 1,
@@ -2256,8 +2461,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 206,
           "name": "Zöldbab",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 172,
           "kcal": 41,
           "protein": 2.6,
@@ -2267,8 +2473,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 207,
           "name": "Zöldborsó",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 378,
           "kcal": 90,
           "protein": 7,
@@ -2278,8 +2485,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 208,
           "name": "Zöldborsó fagyaszt",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 0,
           "kcal": 41,
           "protein": 3.6,
@@ -2289,8 +2497,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 209,
           "name": "Zöldpaprika",
-          "foodGroup": "zöldség",
+          "food0group": "zöldség",
           "energy": 84,
           "kcal": 20,
           "protein": 1.2,
@@ -2300,8 +2509,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 210,
           "name": "Csiperke",
-          "foodGroup": "gomba",
+          "food0group": "gomba",
           "energy": 0,
           "kcal": 40,
           "protein": 5.9,
@@ -2311,8 +2521,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 211,
           "name": "Csiperkegomba (termesztett)",
-          "foodGroup": "gomba",
+          "food0group": "gomba",
           "energy": 168,
           "kcal": 40,
           "protein": 5.9,
@@ -2322,8 +2533,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 212,
           "name": "Laskagomba",
-          "foodGroup": "gomba",
+          "food0group": "gomba",
           "energy": 164,
           "kcal": 39,
           "protein": 1.9,
@@ -2333,8 +2545,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 213,
           "name": "Nagy őzláb gomba",
-          "foodGroup": "gomba",
+          "food0group": "gomba",
           "energy": 168,
           "kcal": 40,
           "protein": 4.9,
@@ -2344,8 +2557,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 214,
           "name": "Rókagomba",
-          "foodGroup": "gomba",
+          "food0group": "gomba",
           "energy": 49,
           "kcal": 12,
           "protein": 2,
@@ -2355,8 +2569,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 215,
           "name": "Vargánya",
-          "foodGroup": "gomba",
+          "food0group": "gomba",
           "energy": 172,
           "kcal": 41,
           "protein": 5.7,
@@ -2366,8 +2581,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 216,
           "name": "Bab (száraz)",
-          "foodGroup": "hüvelyesek",
+          "food0group": "hüvelyesek",
           "energy": 1420,
           "kcal": 338,
           "protein": 22.3,
@@ -2377,8 +2593,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 217,
           "name": "Babkonzerv",
-          "foodGroup": "hüvelyesek",
+          "food0group": "hüvelyesek",
           "energy": 0,
           "kcal": 157,
           "protein": 11,
@@ -2388,8 +2605,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 218,
           "name": "Csicseriborsó (száraz)",
-          "foodGroup": "hüvelyesek",
+          "food0group": "hüvelyesek",
           "energy": 1282,
           "kcal": 306,
           "protein": 19,
@@ -2399,8 +2617,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 219,
           "name": "Fejtett bab",
-          "foodGroup": "hüvelyesek",
+          "food0group": "hüvelyesek",
           "energy": 701,
           "kcal": 167,
           "protein": 10.8,
@@ -2410,8 +2629,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 220,
           "name": "Lencse (száraz)",
-          "foodGroup": "hüvelyesek",
+          "food0group": "hüvelyesek",
           "energy": 1436,
           "kcal": 342,
           "protein": 26,
@@ -2421,8 +2641,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 221,
           "name": "Sárgaborsó (száraz)",
-          "foodGroup": "hüvelyesek",
+          "food0group": "hüvelyesek",
           "energy": 1348,
           "kcal": 321,
           "protein": 21.7,
@@ -2432,8 +2653,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 222,
           "name": "Szója",
-          "foodGroup": "hüvelyesek",
+          "food0group": "hüvelyesek",
           "energy": 0,
           "kcal": 512,
           "protein": 41.6,
@@ -2443,8 +2665,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 223,
           "name": "Szójabab (száraz)",
-          "foodGroup": "hüvelyesek",
+          "food0group": "hüvelyesek",
           "energy": 1922,
           "kcal": 458,
           "protein": 41,
@@ -2454,8 +2677,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 224,
           "name": "Szójagranulátum",
-          "foodGroup": "hüvelyesek",
+          "food0group": "hüvelyesek",
           "energy": 0,
           "kcal": 438.6,
           "protein": 45,
@@ -2465,8 +2689,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 225,
           "name": "Tofu",
-          "foodGroup": "hüvelyesek",
+          "food0group": "hüvelyesek",
           "energy": 328,
           "kcal": 78,
           "protein": 8,
@@ -2476,8 +2701,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 226,
           "name": "Kétszersült",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 1739,
           "kcal": 414,
           "protein": 11.3,
@@ -2487,8 +2713,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 227,
           "name": "Fehér kenyér(házi jellegű)",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 1071,
           "kcal": 255,
           "protein": 8.3,
@@ -2498,8 +2725,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 228,
           "name": "Félbarna kenyér",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 1033,
           "kcal": 246,
           "protein": 9.8,
@@ -2509,8 +2737,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 229,
           "name": "Graham kenyér",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 1142,
           "kcal": 272,
           "protein": 10.2,
@@ -2520,8 +2749,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 230,
           "name": "Rozskenyér",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 750,
           "kcal": 179,
           "protein": 5,
@@ -2531,8 +2761,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 231,
           "name": "Telj.kiőrl.kenyér 1szel.=25g",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 0,
           "kcal": 234,
           "protein": 9.5,
@@ -2542,8 +2773,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 232,
           "name": "Kifli (tejes)",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 1294,
           "kcal": 308,
           "protein": 10.2,
@@ -2553,8 +2785,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 233,
           "name": "Jó reggelt keksz (Győri édes, 4db 50 g)",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 0,
           "kcal": 433,
           "protein": 6.8,
@@ -2564,8 +2797,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 234,
           "name": "Kakaós csiga",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 0,
           "kcal": 494,
           "protein": 7.4,
@@ -2575,8 +2809,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 235,
           "name": "Kakaós csiga 1db (52g)",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 0,
           "kcal": 248,
           "protein": 3.6,
@@ -2586,8 +2821,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 236,
           "name": "Keksz (Jó reggelt)",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 0,
           "kcal": 461,
           "protein": 7.2,
@@ -2597,8 +2833,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 237,
           "name": "Müzli, Sirius (1db, 25g)",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 0,
           "kcal": 109,
           "protein": 1.8,
@@ -2608,8 +2845,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 238,
           "name": "Pogácsa, sajtos 6db",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 0,
           "kcal": 300,
           "protein": 0,
@@ -2619,8 +2857,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 239,
           "name": "Pogácsa, tepert. 6db",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 0,
           "kcal": 408,
           "protein": 8,
@@ -2630,8 +2869,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 240,
           "name": "Spagetti",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 0,
           "kcal": 358,
           "protein": 12,
@@ -2641,8 +2881,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 241,
           "name": "Spagetti (Durilo, durumlisztből)",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 0,
           "kcal": 358,
           "protein": 12,
@@ -2652,8 +2893,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 242,
           "name": "Száraz tészta (4 tojásos)",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 1646,
           "kcal": 392,
           "protein": 15,
@@ -2663,8 +2905,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 243,
           "name": "Száraz tésza (8 tojásos)",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 1680,
           "kcal": 400,
           "protein": 17,
@@ -2674,8 +2917,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 244,
           "name": "Zsemle (vizes)",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 1172,
           "kcal": 275,
           "protein": 9.4,
@@ -2685,8 +2929,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 245,
           "name": "Zsemle (vizes) 1db, 60 g",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 1172,
           "kcal": 165,
           "protein": 5.6,
@@ -2696,8 +2941,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 246,
           "name": "Zsemlemorzsa",
-          "foodGroup": "kenyérféle, tészta",
+          "food0group": "kenyérféle, tészta",
           "energy": 0,
           "kcal": 351,
           "protein": 10.2,
@@ -2707,8 +2953,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 247,
           "name": "Árpagyöngy",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 1507,
           "kcal": 359,
           "protein": 10,
@@ -2718,8 +2965,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 248,
           "name": "Búza liszt",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 1424,
           "kcal": 339,
           "protein": 9.8,
@@ -2729,8 +2977,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 249,
           "name": "Búza liszt( teljes kiőrlésű)",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 1487,
           "kcal": 351,
           "protein": 11.7,
@@ -2740,8 +2989,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 250,
           "name": "Búzadara",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 0,
           "kcal": 340.2,
           "protein": 9.4,
@@ -2751,8 +3001,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 251,
           "name": "Étkezési keméníyítő",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 0,
           "kcal": 344,
           "protein": 0.5,
@@ -2762,8 +3013,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 252,
           "name": "Hajdina",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 1405,
           "kcal": 336,
           "protein": 9,
@@ -2773,8 +3025,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 253,
           "name": "Köles",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 1558,
           "kcal": 371,
           "protein": 11,
@@ -2784,8 +3037,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 254,
           "name": "Kukoricaliszt",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 1404,
           "kcal": 334,
           "protein": 8.9,
@@ -2795,8 +3049,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 255,
           "name": "Kukoricadara",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 1493,
           "kcal": 355,
           "protein": 9.6,
@@ -2806,8 +3061,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 256,
           "name": "Rizs (hántolt, fényezett)",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 1483,
           "kcal": 353,
           "protein": 7.4,
@@ -2817,8 +3073,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 257,
           "name": "Rizs (barna)",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 1468,
           "kcal": 359,
           "protein": 8.8,
@@ -2828,8 +3085,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 258,
           "name": "Rozsliszt (teljes kiörlésű)",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 1363,
           "kcal": 325,
           "protein": 9.3,
@@ -2839,8 +3097,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 259,
           "name": "Tönkölybúza",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 1350,
           "kcal": 323,
           "protein": 14,
@@ -2850,8 +3109,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 260,
           "name": "Zabpehely",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 1621,
           "kcal": 386,
           "protein": 14.4,
@@ -2861,8 +3121,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 261,
           "name": "Zabkorpa",
-          "foodGroup": "gabonaféle",
+          "food0group": "gabonaféle",
           "energy": 1318,
           "kcal": 314,
           "protein": 9.5,
@@ -2872,8 +3133,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 262,
           "name": "Burgonyakrokett",
-          "foodGroup": "burgonya",
+          "food0group": "burgonya",
           "energy": 670,
           "kcal": 160,
           "protein": 4,
@@ -2883,8 +3145,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 263,
           "name": "Főtt burgonya",
-          "foodGroup": "burgonya",
+          "food0group": "burgonya",
           "energy": 330,
           "kcal": 79,
           "protein": 2,
@@ -2894,8 +3157,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 264,
           "name": "Sült burgonya",
-          "foodGroup": "burgonya",
+          "food0group": "burgonya",
           "energy": 926,
           "kcal": 221,
           "protein": 4,
@@ -2905,8 +3169,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 265,
           "name": "Libazsír",
-          "foodGroup": "zsír, margarin",
+          "food0group": "zsír, margarin",
           "energy": 3868,
           "kcal": 921,
           "protein": 0.5,
@@ -2916,8 +3181,9 @@
           "cholesterol": 75
       },
       {
+          "_id": 266,
           "name": "Sertészsír",
-          "foodGroup": "zsír, margarin",
+          "food0group": "zsír, margarin",
           "energy": 3894,
           "kcal": 928,
           "protein": 0.1,
@@ -2927,8 +3193,9 @@
           "cholesterol": 86
       },
       {
+          "_id": 267,
           "name": "Teavaj",
-          "foodGroup": "zsír, margarin",
+          "food0group": "zsír, margarin",
           "energy": 3133,
           "kcal": 746,
           "protein": 10.4,
@@ -2938,8 +3205,9 @@
           "cholesterol": 230
       },
       {
+          "_id": 268,
           "name": "Kókuszzsír",
-          "foodGroup": "zsír, margarin",
+          "food0group": "zsír, margarin",
           "energy": 3742,
           "kcal": 894,
           "protein": 1,
@@ -2949,8 +3217,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 269,
           "name": "Bertolli margarin(olívaolajjal)",
-          "foodGroup": "zsír, margarin",
+          "food0group": "zsír, margarin",
           "energy": 1779,
           "kcal": 424,
           "protein": 0,
@@ -2960,8 +3229,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 270,
           "name": "Delma margarin(multivitaminos)",
-          "foodGroup": "zsír, margarin",
+          "food0group": "zsír, margarin",
           "energy": 1779,
           "kcal": 424,
           "protein": 0,
@@ -2971,8 +3241,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 271,
           "name": "FLORA Pro.activ margarin",
-          "foodGroup": "zsír, margarin",
+          "food0group": "zsír, margarin",
           "energy": 1331,
           "kcal": 324,
           "protein": 0.1,
@@ -2982,8 +3253,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 272,
           "name": "FLORA szívbarát margarin",
-          "foodGroup": "zsír, margarin",
+          "food0group": "zsír, margarin",
           "energy": 2223,
           "kcal": 529,
           "protein": 0,
@@ -2993,8 +3265,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 273,
           "name": "RAMA főzőmargarin",
-          "foodGroup": "zsír, margarin",
+          "food0group": "zsír, margarin",
           "energy": 2596,
           "kcal": 618,
           "protein": 0,
@@ -3004,8 +3277,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 274,
           "name": "RAMA sütőmargarin",
-          "foodGroup": "zsír, margarin",
+          "food0group": "zsír, margarin",
           "energy": 2593,
           "kcal": 617,
           "protein": 0,
@@ -3015,8 +3289,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 275,
           "name": "RAMA Harmonia margarin",
-          "foodGroup": "zsír, margarin",
+          "food0group": "zsír, margarin",
           "energy": 1480,
           "kcal": 360,
           "protein": 0,
@@ -3026,8 +3301,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 276,
           "name": "Bogáncsolaj",
-          "foodGroup": "olaj",
+          "food0group": "olaj",
           "energy": 3762,
           "kcal": 899,
           "protein": 0,
@@ -3037,8 +3313,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 277,
           "name": "Földimogyoróolaj",
-          "foodGroup": "olaj",
+          "food0group": "olaj",
           "energy": 3762,
           "kcal": 899,
           "protein": 0,
@@ -3048,8 +3325,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 278,
           "name": "Kukoricacsíraolaj",
-          "foodGroup": "olaj",
+          "food0group": "olaj",
           "energy": 3762,
           "kcal": 899,
           "protein": 0,
@@ -3059,8 +3337,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 279,
           "name": "Lenolaj",
-          "foodGroup": "olaj",
+          "food0group": "olaj",
           "energy": 3700,
           "kcal": 900,
           "protein": 0,
@@ -3070,8 +3349,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 280,
           "name": "Napraforgóolaj",
-          "foodGroup": "olaj",
+          "food0group": "olaj",
           "energy": 3762,
           "kcal": 899,
           "protein": 0,
@@ -3081,8 +3361,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 281,
           "name": "Olivaolaj",
-          "foodGroup": "olaj",
+          "food0group": "olaj",
           "energy": 3762,
           "kcal": 899,
           "protein": 0,
@@ -3092,8 +3373,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 282,
           "name": "Repceolaj",
-          "foodGroup": "olaj",
+          "food0group": "olaj",
           "energy": 3762,
           "kcal": 899,
           "protein": 0,
@@ -3103,8 +3385,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 283,
           "name": "Szójaolaj",
-          "foodGroup": "olaj",
+          "food0group": "olaj",
           "energy": 3762,
           "kcal": 899,
           "protein": 0,
@@ -3114,8 +3397,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 284,
           "name": "Flora szívbarát majonéz",
-          "foodGroup": "majonéz, salátaöntet",
+          "food0group": "majonéz, salátaöntet",
           "energy": 2422,
           "kcal": 577,
           "protein": 0.8,
@@ -3125,8 +3409,9 @@
           "cholesterol": 48
       },
       {
+          "_id": 285,
           "name": "Globus ketchup",
-          "foodGroup": "majonéz, salátaöntet",
+          "food0group": "majonéz, salátaöntet",
           "energy": 415,
           "kcal": 99,
           "protein": 1.5,
@@ -3136,8 +3421,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 286,
           "name": "Globus majonéz",
-          "foodGroup": "majonéz, salátaöntet",
+          "food0group": "majonéz, salátaöntet",
           "energy": 2560,
           "kcal": 611,
           "protein": 2,
@@ -3147,8 +3433,9 @@
           "cholesterol": 54
       },
       {
+          "_id": 287,
           "name": "Globus mustár",
-          "foodGroup": "majonéz, salátaöntet",
+          "food0group": "majonéz, salátaöntet",
           "energy": 415,
           "kcal": 99,
           "protein": 4.8,
@@ -3158,8 +3445,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 288,
           "name": "Majonéz, light",
-          "foodGroup": "majonéz, salátaöntet",
+          "food0group": "majonéz, salátaöntet",
           "energy": 0,
           "kcal": 199,
           "protein": 0.47,
@@ -3169,8 +3457,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 289,
           "name": "Dió",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 2747,
           "kcal": 654,
           "protein": 18.6,
@@ -3180,8 +3469,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 290,
           "name": "Gesztenye",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 700,
           "kcal": 167,
           "protein": 4.8,
@@ -3191,8 +3481,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 291,
           "name": "Kesudió",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 2503,
           "kcal": 596,
           "protein": 18,
@@ -3202,8 +3493,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 292,
           "name": "Kókuszreszelék",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 2593,
           "kcal": 620,
           "protein": 6,
@@ -3213,8 +3505,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 293,
           "name": "Mandula",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 2629,
           "kcal": 626,
           "protein": 27.6,
@@ -3224,8 +3517,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 294,
           "name": "Mák",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 2255,
           "kcal": 537,
           "protein": 20.5,
@@ -3235,8 +3529,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 295,
           "name": "Mogyoró",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 2898,
           "kcal": 690,
           "protein": 15.6,
@@ -3246,8 +3541,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 296,
           "name": "Mogyoró, sózott pörkölt",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 0,
           "kcal": 602,
           "protein": 24,
@@ -3257,8 +3553,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 297,
           "name": "Napraforgómag",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 2478,
           "kcal": 590,
           "protein": 18.7,
@@ -3268,8 +3565,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 298,
           "name": "Lenmag",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 1572,
           "kcal": 376,
           "protein": 24,
@@ -3279,8 +3577,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 299,
           "name": "Paradió",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 2978,
           "kcal": 709,
           "protein": 14,
@@ -3290,8 +3589,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 300,
           "name": "Pisztácia",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 2730,
           "kcal": 650,
           "protein": 22.3,
@@ -3301,8 +3601,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 301,
           "name": "Szezámmag",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 2368,
           "kcal": 566,
           "protein": 19,
@@ -3312,8 +3613,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 302,
           "name": "Tökmag",
-          "foodGroup": "dióféle, magvak",
+          "food0group": "dióféle, magvak",
           "energy": 2617,
           "kcal": 623,
           "protein": 33.9,
@@ -3323,8 +3625,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 303,
           "name": "Babapiskóta",
-          "foodGroup": "édesség, sütemény",
+          "food0group": "édesség, sütemény",
           "energy": 1715,
           "kcal": 410,
           "protein": 12,
@@ -3334,8 +3637,9 @@
           "cholesterol": 281
       },
       {
+          "_id": 304,
           "name": "Cukor",
-          "foodGroup": "édesség, sütemény",
+          "food0group": "édesség, sütemény",
           "energy": 1674,
           "kcal": 400,
           "protein": 0,
@@ -3345,8 +3649,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 305,
           "name": "Édesítőszerek",
-          "foodGroup": "édesség, sütemény",
+          "food0group": "édesség, sütemény",
           "energy": 0,
           "kcal": 0,
           "protein": 0,
@@ -3356,8 +3661,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 306,
           "name": "Háztartási keksz",
-          "foodGroup": "édesség, sütemény",
+          "food0group": "édesség, sütemény",
           "energy": 1777,
           "kcal": 423,
           "protein": 9.8,
@@ -3367,8 +3673,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 307,
           "name": "Méz",
-          "foodGroup": "édesség, sütemény",
+          "food0group": "édesség, sütemény",
           "energy": 1279,
           "kcal": 306,
           "protein": 0,
@@ -3378,8 +3685,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 308,
           "name": "Savanyú cukorka",
-          "foodGroup": "édesség, sütemény",
+          "food0group": "édesség, sütemény",
           "energy": 1701,
           "kcal": 405,
           "protein": 0,
@@ -3389,8 +3697,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 309,
           "name": "Tejcsokoládé",
-          "foodGroup": "édesség, sütemény",
+          "food0group": "édesség, sütemény",
           "energy": 2465,
           "kcal": 587,
           "protein": 7.7,
@@ -3400,8 +3709,9 @@
           "cholesterol": 20
       },
       {
+          "_id": 310,
           "name": "Chilis por babhoz Knorr",
-          "foodGroup": "leves",
+          "food0group": "leves",
           "energy": 0,
           "kcal": 328,
           "protein": 16.2,
@@ -3411,8 +3721,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 311,
           "name": "Erőleves kockából leves",
-          "foodGroup": "leves",
+          "food0group": "leves",
           "energy": 0,
           "kcal": 5,
           "protein": 0.2,
@@ -3422,8 +3733,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 312,
           "name": "Erőleves kocka",
-          "foodGroup": "leves",
+          "food0group": "leves",
           "energy": 0,
           "kcal": 250,
           "protein": 10,
@@ -3433,8 +3745,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 313,
           "name": "Erőleves kocka 1 db, 10g",
-          "foodGroup": "leves",
+          "food0group": "leves",
           "energy": 0,
           "kcal": 25,
           "protein": 1,
@@ -3444,8 +3757,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 314,
           "name": "Almalé",
-          "foodGroup": "alkoholmentes ital",
+          "food0group": "alkoholmentes ital",
           "energy": 187,
           "kcal": 45,
           "protein": 0,
@@ -3455,8 +3769,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 315,
           "name": "Ásványvíz",
-          "foodGroup": "alkoholmentes ital",
+          "food0group": "alkoholmentes ital",
           "energy": 0,
           "kcal": 0,
           "protein": 0,
@@ -3466,8 +3781,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 316,
           "name": "Céklalé",
-          "foodGroup": "alkoholmentes ital",
+          "food0group": "alkoholmentes ital",
           "energy": 142,
           "kcal": 34,
           "protein": 1,
@@ -3477,8 +3793,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 317,
           "name": "Citromlé",
-          "foodGroup": "alkoholmentes ital",
+          "food0group": "alkoholmentes ital",
           "energy": 120,
           "kcal": 29,
           "protein": 0,
@@ -3488,8 +3805,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 318,
           "name": "Kávé, 0,5 dl",
-          "foodGroup": "alkoholmentes ital",
+          "food0group": "alkoholmentes ital",
           "energy": 0,
           "kcal": 1,
           "protein": 0,
@@ -3499,8 +3817,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 319,
           "name": "LIPTON Ice Tea, Citromos",
-          "foodGroup": "alkoholmentes ital",
+          "food0group": "alkoholmentes ital",
           "energy": 110,
           "kcal": 27,
           "protein": 0,
@@ -3510,8 +3829,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 320,
           "name": "Narancslé",
-          "foodGroup": "alkoholmentes ital",
+          "food0group": "alkoholmentes ital",
           "energy": 194,
           "kcal": 46,
           "protein": 1,
@@ -3521,8 +3841,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 321,
           "name": "Paradicsomlé",
-          "foodGroup": "alkoholmentes ital",
+          "food0group": "alkoholmentes ital",
           "energy": 64,
           "kcal": 15,
           "protein": 1,
@@ -3532,8 +3853,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 322,
           "name": "Répalé",
-          "foodGroup": "alkoholmentes ital",
+          "food0group": "alkoholmentes ital",
           "energy": 129,
           "kcal": 31,
           "protein": 1,
@@ -3543,8 +3865,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 323,
           "name": "Szénsavas üdítőitalok, cukros",
-          "foodGroup": "alkoholmentes ital",
+          "food0group": "alkoholmentes ital",
           "energy": 159,
           "kcal": 38,
           "protein": 0,
@@ -3554,8 +3877,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 324,
           "name": "Szénsavas üdítőitalok, light",
-          "foodGroup": "alkoholmentes ital",
+          "food0group": "alkoholmentes ital",
           "energy": 1,
           "kcal": 0,
           "protein": 0,
@@ -3565,8 +3889,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 325,
           "name": "Szőlőlé",
-          "foodGroup": "alkoholmentes ital",
+          "food0group": "alkoholmentes ital",
           "energy": 258,
           "kcal": 62,
           "protein": 0,
@@ -3576,8 +3901,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 326,
           "name": "Sör",
-          "foodGroup": "alkoholos ital",
+          "food0group": "alkoholos ital",
           "energy": 159,
           "kcal": 38,
           "protein": 0,
@@ -3587,8 +3913,9 @@
           "cholesterol": 4
       },
       {
+          "_id": 327,
           "name": "Sör (alkoholmentes)",
-          "foodGroup": "alkoholos ital",
+          "food0group": "alkoholos ital",
           "energy": 108,
           "kcal": 25,
           "protein": 0,
@@ -3598,8 +3925,9 @@
           "cholesterol": 0.3
       },
       {
+          "_id": 328,
           "name": "Fehér bor 12.5 Vol%",
-          "foodGroup": "alkoholos ital",
+          "food0group": "alkoholos ital",
           "energy": 298,
           "kcal": 71,
           "protein": 0,
@@ -3609,8 +3937,9 @@
           "cholesterol": 10
       },
       {
+          "_id": 329,
           "name": "Vörös bor 12 Vol%",
-          "foodGroup": "alkoholos ital",
+          "food0group": "alkoholos ital",
           "energy": 290,
           "kcal": 69,
           "protein": 0,
@@ -3620,8 +3949,9 @@
           "cholesterol": 10
       },
       {
+          "_id": 330,
           "name": "Tokaji aszú",
-          "foodGroup": "alkoholos ital",
+          "food0group": "alkoholos ital",
           "energy": 0,
           "kcal": 250,
           "protein": 0,
@@ -3631,8 +3961,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 331,
           "name": "Pezsgő",
-          "foodGroup": "alkoholos ital",
+          "food0group": "alkoholos ital",
           "energy": 295,
           "kcal": 70,
           "protein": 0,
@@ -3642,8 +3973,9 @@
           "cholesterol": 9
       },
       {
+          "_id": 332,
           "name": "Cseresznyepálinka",
-          "foodGroup": "alkoholos ital",
+          "food0group": "alkoholos ital",
           "energy": 1025,
           "kcal": 245,
           "protein": 0,
@@ -3653,8 +3985,9 @@
           "cholesterol": 35
       },
       {
+          "_id": 333,
           "name": "Konyak",
-          "foodGroup": "alkoholos ital",
+          "food0group": "alkoholos ital",
           "energy": 1003,
           "kcal": 240,
           "protein": 0,
@@ -3664,8 +3997,9 @@
           "cholesterol": 33
       },
       {
+          "_id": 334,
           "name": "Likőrök",
-          "foodGroup": "alkoholos ital",
+          "food0group": "alkoholos ital",
           "energy": 1017,
           "kcal": 243,
           "protein": 0,
@@ -3675,8 +4009,9 @@
           "cholesterol": 14
       },
       {
+          "_id": 335,
           "name": "Pálinka 40 Vol%",
-          "foodGroup": "alkoholos ital",
+          "food0group": "alkoholos ital",
           "energy": 928,
           "kcal": 222,
           "protein": 0,
@@ -3686,8 +4021,9 @@
           "cholesterol": 32
       },
       {
+          "_id": 336,
           "name": "Unicum",
-          "foodGroup": "alkoholos ital",
+          "food0group": "alkoholos ital",
           "energy": 0,
           "kcal": 320,
           "protein": 0,
@@ -3697,8 +4033,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 337,
           "name": "Vermouth",
-          "foodGroup": "alkoholos ital",
+          "food0group": "alkoholos ital",
           "energy": 0,
           "kcal": 160,
           "protein": 0,
@@ -3708,8 +4045,9 @@
           "cholesterol": 0
       },
       {
+          "_id": 338,
           "name": "Whisky",
-          "foodGroup": "alkoholos ital",
+          "food0group": "alkoholos ital",
           "energy": 1056,
           "kcal": 252,
           "protein": 0,

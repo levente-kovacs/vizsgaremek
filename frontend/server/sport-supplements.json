@@ -1,7 +1,7 @@
 {
   "sport-supplements": [
     {
-      "id": 1,
+      "_id": 1,
       "name": "100% WHEY PROTEIN PROFESSIONAL (2,35 KG)",
       "image": "https://shopbuilder.hu/images/product_images/5146_a20b64492bf4.webp",
       "description": "A 100% Whey Protein* Professional-ban található tejsavó fehérje hozzájárul az izomtömeg növekedéséhez és fenntartásához, valamint a normál csontozat fenntartásához.",

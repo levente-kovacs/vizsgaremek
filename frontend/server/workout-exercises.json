@@ -1,7 +1,7 @@
 {
   "workout-exercises": [
     {
-      "id": 1,
+      "_id": 1,
       "name": "Fekvőtámasz",
       "workoutType": ["1"],
       "workingMuscles": ["Mell", "Váll", "Tricepsz"],

@@ -1,5 +1,5 @@
 export class WorkoutSchedule {
-  id: number = 0;
+  _id: number = 0;
   name: string = "";
   workoutType: string = '';
   monday: string[] = [];

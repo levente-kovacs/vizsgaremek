@@ -1,5 +1,5 @@
 export class SportSupplement {
-  id: number = 0;
+  _id: number = 0;
   name: string = '';
   image: string = '';
   description: string = '';

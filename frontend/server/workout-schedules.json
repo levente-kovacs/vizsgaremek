@@ -1,7 +1,7 @@
 {
   "workout-schedules": [
     {
-      "id": 1,
+      "_id": 1,
       "name": "Saját testsúlyos edzésterv",
       "workoutType": "Saját testsúlyos edzés",
       "monday": [""],
