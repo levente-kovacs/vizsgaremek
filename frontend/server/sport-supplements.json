@@ -1,0 +1,13 @@
+{
+  "sport-supplements": [
+    {
+      "id": 1,
+      "name": "100% WHEY PROTEIN PROFESSIONAL (2,35 KG)",
+      "image": "https://shopbuilder.hu/images/product_images/5146_a20b64492bf4.webp",
+      "description": "A 100% Whey Protein* Professional-ban található tejsavó fehérje hozzájárul az izomtömeg növekedéséhez és fenntartásához, valamint a normál csontozat fenntartásához.",
+      "dosing": "Fogyassz naponta egy adagot (30 gramm, 3/4 adagolókanál) 250ml vízzel. Fogyassz egy adagot edzésnapokon edzés után, pihenőnapokon pedig bármikor a nap folyamán.",
+      "allergen": "Tejet, tojást, szóját, földimogyorót, zellert, rákféléket, halat, puhatestueket, kén-dioxidot és dióféléket tartalmazó élelmiszereket gyártó üzemben készült.",
+      "ingredients": ["Taurin", "L-Glutamin", "L-Arginin", "L-Leucin", "Bromelain", "Papain"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "workout-schedules": [
+    {
+      "id": 1,
+      "name": "Saját testsúlyos edzésterv",
+      "workoutType": "Saját testsúlyos edzés",
+      "monday": [""],
+      "tuesday": [""],
+      "wednesday": [""],
+      "thursday": [""],
+      "friday": [""],
+      "saturday": [""],
+      "sunday": [""]
+    }
+  ]
+}

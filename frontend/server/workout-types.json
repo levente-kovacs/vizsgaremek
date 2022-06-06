@@ -1,0 +1,16 @@
+{
+  "workout-types": [
+    {
+      "id": 1,
+      "type": "Bemelegítő gyakorlatok",
+      "description": "Bemelegítő edzés",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "type": "Saját testsúlyos edzés",
+      "description": "Bemelegítő edzés",
+      "image": ""
+    }
+  ]
+}
