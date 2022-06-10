@@ -1,6 +1,18 @@
 {
   "calorie-chart": [
     {
+      "_id": 0,
+      "name": "Teszt",
+      "foodGroup": "tej és teszt",
+      "energy": 260,
+      "kcal": 62,
+      "protein": 3.4,
+      "fat": 2.8,
+      "carbohydrate": 5.3,
+      "fiber": 0,
+      "cholesterol": 1000
+    },
+    {
       "_id": 1,
       "name": "Tehéntej pasztőrözött (2.8% zsírtart)",
       "foodGroup": "tej és tejtermékek",
@@ -4055,6 +4067,10 @@
       "carbohydrate": 0,
       "fiber": 0,
       "cholesterol": 36
+    },
+    {
+      "name": "Teszt01",
+      "_id": 339
     }
   ]
 }

@@ -12,6 +12,8 @@ import { SportSupplementComponent } from './page/sport-supplement/sport-suppleme
 import { WorkoutExerciseComponent } from './page/workout-exercise/workout-exercise.component';
 import { WorkoutTypeComponent } from './page/workout-type/workout-type.component';
 import { WorkoutScheduleComponent } from './page/workout-schedule/workout-schedule.component';
+import { CalorieChartEditorComponent } from './page/calorie-chart-editor/calorie-chart-editor.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,12 +25,14 @@ import { WorkoutScheduleComponent } from './page/workout-schedule/workout-schedu
     WorkoutExerciseComponent,
     WorkoutTypeComponent,
     WorkoutScheduleComponent,
+    CalorieChartEditorComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     GenericTableModule,
     HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

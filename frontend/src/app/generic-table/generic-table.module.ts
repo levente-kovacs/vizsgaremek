@@ -1,7 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GenericDataTableComponent } from './generic-data-table/generic-data-table.component';
+import { RouterModule, Routes } from '@angular/router';
 
+
+const yourRoutes: Routes = [
+  { path: '',  component: GenericDataTableComponent }
+];
+
+export const yourRouting = RouterModule.forChild(yourRoutes);
 
 
 @NgModule({
@@ -9,7 +16,8 @@ import { GenericDataTableComponent } from './generic-data-table/generic-data-tab
     GenericDataTableComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    yourRouting
   ],
   exports: [
     GenericDataTableComponent,

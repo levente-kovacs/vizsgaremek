@@ -7,37 +7,36 @@ import { ConfigService } from 'src/app/service/config.service';
 @Component({
   selector: 'app-calorie-chart',
   templateUrl: './calorie-chart.component.html',
-  styleUrls: ['./calorie-chart.component.scss']
+  styleUrls: ['./calorie-chart.component.scss'],
 })
 export class CalorieChartComponent implements OnInit {
 
   columns = this.config.calorieChartTableColumns;
-
   list$ = this.calorieChartService.getAll();
+  entity = 'calorie-chart';
 
   constructor(
     private config: ConfigService,
     private calorieChartService: CalorieChartService,
-    private router: Router,
-  ) { }
+    private router: Router
+  ) {}
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  onSelectOne(calorieChart: CalorieChart): void {
+    this.router.navigate(['/', 'calorie-chart', calorieChart._id])
   }
-
-  // onSelectOne(calorieChart: CalorieChart): void {
-  //   this.router.navigate(['/', 'CalorieChart', CalorieChart._id])
-  // }
 
   onDeleteOne(calorieChart: CalorieChart): void {
     if (window.confirm('Biztosan törli ezt a vásárlót?')) {
-      this.calorieChartService.remove(calorieChart._id).subscribe(
-        () => this.list$ = this.calorieChartService.getAll()
-      )
+      this.calorieChartService
+        .remove(calorieChart._id)
+        .subscribe(() => (this.list$ = this.calorieChartService.getAll()));
       // this.toastr.showSuccessWithTimeout(`
       //   <table class="table">
       //     <thead>
       //       <tr>
-      //         <th>Vásárló azonosítója</th>
+      //         <th>Élelmiszer azonosítója</th>
       //       </tr>
       //     </thead>
       //     <tbody>
@@ -47,9 +46,8 @@ export class CalorieChartComponent implements OnInit {
       //     </tbody>
       //   </table>
       //   </span>`,
-      //   "A vásárló sikeresen törlődött:",
+      //   "Az élelmiszer sikeresen törlődött:",
       //   5000)
+    }
   }
-  }
-
 }
