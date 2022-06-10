@@ -15,4 +15,6 @@
   *ngIf="list$ | async as list"
   [columns]="columns"
   [list]="list"
+  (deleteOne)="onDeleteOne($event)">
 ></generic-data-table>
+  <!-- (selectOne)="onSelectOne($event)" -->

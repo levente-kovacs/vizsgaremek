@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { GenericTableModule } from './generic-table/generic-table.module';
 import { CalorieChartComponent } from './page/calorie-chart/calorie-chart.component';
 
 const routes: Routes = [
@@ -14,7 +15,10 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes),
+    GenericTableModule
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
