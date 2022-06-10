@@ -1,16 +1,52 @@
 {
-  "workout-types": [
-    {
-      "_id": 1,
-      "type": "Bemelegítő gyakorlatok",
-      "description": "Bemelegítő edzés",
-      "image": ""
-    },
-    {
-      "_id": 2,
-      "type": "Saját testsúlyos edzés",
-      "description": "Bemelegítő edzés",
-      "image": ""
-    }
-  ]
+    "workout-types": [
+        {
+            "_id": 1,
+            "type": "Bemelegítés",
+            "description": "Ahhoz, hogy teljesítményünket optimalizáljuk, illetve megelőzzük a sérüléseket, elengedhetetlen az edzés előtti bemelegítés, mely felkészíti a szervezetünket az edzésre, összehangolja az agyat és a testet.",
+            "image": ""
+        },
+        {
+            "_id": 2,
+            "type": "Saját testsúlyos edzés",
+            "description": "Modern nevén Street Workout, egy nagyon előnyös, látványos (extrém tornagyakorlatok), és teljesen ingyen elérhető edzésmódszer mindenki számára.",
+            "image": ""
+        },
+        {
+            "_id": 3,
+            "type": "Crossfit",
+            "description": "Funkcionális (teljes testet megmozgató) edzés magas intenzitáson végrehajtva állandó változatosság mellett.",
+            "image": ""
+        },
+        {
+            "_id": 4,
+            "type": "Testépítés",
+            "description": "Célja főleg izolációs (egyszerre egy izmot igénybe vevő) súlyzós edzés segítségével a legnagyobb, legszimmetrikusabb, legesztétikusabb izomzat kiépítése.",
+            "image": ""
+        },
+        {
+            "_id": 5,
+            "type": "Súlyemelés",
+            "description": "Célja a lehető legnagyobb súly rögzített szabályrendszer szerinti fej fölé emelése. Két fogásneme a szakítás és lökés.",
+            "image": ""
+        },
+        {
+            "_id": 6,
+            "type": "Erőemelés (Power lifting)",
+            "description": "Célja, hogy a három fogásnem mindegyikében - guggolás, fekvenyomás, felhúzás - a lehető legnagyobb súlyt mozgassuk meg. Ez a három gyakorlat olyan összetett és bonyolult mozdulat, ami rengeteg izmot dolgoztat meg egyszerre, hihetetlen módon képes stimulálni az egész testet, hogy növekedjen és erősödjön.",
+            "image": ""
+        },
+        {
+            "_id": 7,
+            "type": "Erősember edzés (Strongman)",
+            "description": "Egy fajta intenzív intervallumedzés, annyi különbséggel, hogy nagy terhelést használunk, így ez az edzés nagyon keményen megdolgoztatja az egész testet, beleértve a tüdőket és a szív- és érrendszert is. Egyszerre növeli az izomtömeget, az erőt és eközben még zsírt is éget.",
+            "image": ""
+        },
+        {
+            "_id": 8,   
+            "type": "Kardió edzés",
+            "description": "Az izomzaton túl fokozott igénybevételnek teszi ki a szívet, a tüdőt, és az érrendszert, így zsírt égetve és kalóriát fogyasztva hozzájárul a súlycsökkenéshez.",
+            "image": ""
+        }
+    ]
 }

@@ -1,13 +1,509 @@
 {
-  "workout-exercises": [
-    {
-      "_id": 1,
-      "name": "Fekvőtámasz",
-      "workoutType": ["1"],
-      "workingMuscles": ["Mell", "Váll", "Tricepsz"],
-      "image": "",
-      "sets": "2-3",
-      "reps": "10"
-    }
-  ]
-}
+    "workout-exercises": [
+      {
+        "_id": 1,
+        "name": "Fekvőtámasz",
+        "workoutType": [2],
+        "workingMuscles": ["Mell", "Tricepsz"],
+        "image": "",
+        "sets": "2-3",
+        "reps": "10",
+        "weight": 0
+      },
+      {
+        "_id": 2,
+        "name": "Guggolás",
+        "workoutType": [1],
+        "workingMuscles": ["Combfeszítő izmok", "Combhajlító izmok", "Farizomok"],
+        "image": "",
+        "sets": "3-5",
+        "reps": "8-12",
+        "weight": 0
+      },
+      {
+        "_id": 3,
+        "name": "Fekvenyomás",
+        "workoutType": [1],
+        "workingMuscles": ["Mell", "Tricepsz"],
+        "image": "",
+        "sets": "4",
+        "reps": "6-10",
+        "weight": 0
+      },
+      {
+        "_id": 4,
+        "name": "Felhúzás",
+        "workoutType": [1],
+        "workingMuscles": ["Farizmok", "Combfeszítő izmok", "Combhajlító izmok", "Hát", "Csuklyás izom"],
+        "image": "",
+        "sets": "3-5",
+        "reps": "4-6",
+        "weight": 0
+      },
+      {
+        "_id": 5,
+        "name": "Lökés",
+        "workoutType": [1],
+        "workingMuscles": ["Farizmok", "Combfeszítő izmok", "Combhajlító izmok", "Vádli", "Hát", "Csuklyás izom"],
+        "image": "",
+        "sets": "3-5",
+        "reps": "2-4",
+        "weight": 0
+      },
+      {
+        "_id": 6,
+        "name": "Szakítás",
+        "workoutType": [1],
+        "workingMuscles": ["Farizmok", "Combfeszítő izmok", "Combhajlító izmok", "Combközelítő izmok", "Vádli", "Hát", "Váll", "Csuklyás izom", "Alkar"],
+        "image": "",
+        "sets": "3-5",
+        "reps": "1-3",
+        "weight": 0
+      },
+      {
+        "_id": 7,
+        "name": "Húzódzkodás",
+        "workoutType": [1],
+        "workingMuscles": ["Felső hát", "Bicepsz"],
+        "image": "",
+        "sets": "3-4",
+        "reps": "6-10",
+        "weight": 0
+      },
+      {
+        "_id": 8,
+        "name": "Tolódzkodás",
+        "workoutType": [1],
+        "workingMuscles": ["Tricepsz", "Mell"],
+        "image": "",
+        "sets": "3-4",
+        "reps": "6-10",
+        "weight": 0
+      },
+      {
+        "_id": 9,
+        "name": "Plank",
+        "workoutType": [1],
+        "workingMuscles": ["Has", "Váll"],
+        "image": "",
+        "sets": "3-4",
+        "reps": "",
+        "time": "10-60",
+        "weight": 0
+      },
+      {
+        "_id": 10,
+        "name": "Muscle-up",
+        "workoutType": [1],
+        "workingMuscles": ["Felső hát", "Bicepsz", "Tricepsz", "Mell"],
+        "image": "",
+        "sets": "3-4",
+        "reps": "",
+        "time": "10-60",
+        "weight": 0
+      },
+      {
+        "_id": 11,
+        "name": "Zászló (Human flag)",
+        "workoutType": [1],
+        "workingMuscles": ["Hát", "Has"],
+        "image": "",
+        "sets": "1-5",
+        "reps": "",
+        "time": "1-4",
+        "weight": 0
+      },
+      {
+        "_id": 12,
+        "name": "Fekvenyomás döntött padon egykezes súlyzóval",
+        "workoutType": [1],
+        "workingMuscles": ["Mell - Felső mell", "Tricepsz", "Váll"],
+        "image": "",
+        "sets": "4",
+        "reps": "8-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 13,
+        "name": "Evezés döntött törzzsel",
+        "workoutType": [1],
+        "workingMuscles": ["Hát", "Bicepsz"],
+        "image": "",
+        "sets": "3-4",
+        "reps": "8-12",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 14,
+        "name": "Vállból nyomás állva rúddal",
+        "workoutType": [1],
+        "workingMuscles": ["Váll", "Tricepsz"],
+        "image": "",
+        "sets": "3-4",
+        "reps": "8-12",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 15,
+        "name": "Power Clean",
+        "workoutType": [1],
+        "workingMuscles": ["Vádli", "Combfeszítő izmok", "Farizmok", "Hát", "Váll"],
+        "image": "",
+        "sets": "6",
+        "reps": "2-3",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 16,
+        "name": "Tárogatás",
+        "workoutType": [1],
+        "workingMuscles": ["Mell"],
+        "image": "",
+        "sets": "2",
+        "reps": "7-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 17,
+        "name": "Áthúzás egykezes súlyzóval",
+        "workoutType": [1],
+        "workingMuscles": ["Mell", "Elülső fűrészizom", "Tricepsz", "Hát"],
+        "image": "",
+        "sets": "4",
+        "reps": "10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 18,
+        "name": "Szűken nyomás (close grip press)",
+        "workoutType": [1],
+        "workingMuscles": ["Tricepsz", "Mell"],
+        "image": "",
+        "sets": "4-5",
+        "reps": "8-12",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 19,
+        "name": "Kábeles letolás csigán (Cable Rope Tricep Pushdown)",
+        "workoutType": [1],
+        "workingMuscles": ["Tricepsz"],
+        "image": "",
+        "sets": "3-4",
+        "reps": "8-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 20,
+        "name": "Kalapács-bicepsz",
+        "workoutType": [1],
+        "workingMuscles": ["Bicepsz"],
+        "image": "",
+        "sets": "3-4",
+        "reps": "8-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 21,
+        "name": "Bicepsz ülve egykezes súlyzókkal",
+        "workoutType": [1],
+        "workingMuscles": ["Bicepsz"],
+        "image": "",
+        "sets": "4",
+        "reps": "8-16",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 22,
+        "name": "Bicepsz állva francia rúddal",
+        "workoutType": [1],
+        "workingMuscles": ["Bicepsz"],
+        "image": "",
+        "sets": "3-4",
+        "reps": "6-8",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 23,
+        "name": "Bicepsz állva csigán kétkezes rúddal",
+        "workoutType": [1],
+        "workingMuscles": ["Bicepsz"],
+        "image": "",
+        "sets": "4",
+        "reps": "8-12",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 24,
+        "name": "Oldalemelés",
+        "workoutType": [1],
+        "workingMuscles": ["Váll"],
+        "image": "",
+        "sets": "4",
+        "reps": "8-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 25,
+        "name": "Vállvonogatás",
+        "workoutType": [1],
+        "workingMuscles": ["Csuklyás izom"],
+        "image": "",
+        "sets": "4",
+        "reps": "8-12",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 26,
+        "name": "Lábtolás",
+        "workoutType": [1],
+        "workingMuscles": ["Combfeszítő izmok", "Farizmok", "Combhajlító izmok"],
+        "image": "",
+        "sets": "4",
+        "reps": "8-12",
+        "weight": 0
+      },
+      {
+        "_id": 27,
+        "name": "Jó reggelt gyakorlat (Good Morning)",
+        "workoutType": [1],
+        "workingMuscles": ["Combhajlító izmok", "Farizmok", "Hát"],
+        "image": "",
+        "sets": "2-3",
+        "reps": "8-12",
+        "weight": 0
+      },
+      {
+        "_id": 28,
+        "name": "Lábnyújtás",
+        "workoutType": [1],
+        "workingMuscles": ["Combfeszítő izmok"],
+        "image": "",
+        "sets": "4",
+        "reps": "10",
+        "weight": 0
+      },
+      {
+        "_id": 29,
+        "name": "Szántolás (Prowler Push)",
+        "workoutType": [1],
+        "workingMuscles": ["Farizmok", "Hát", "Vádli", "Combhajlító izmok", "Combfeszítő izmok", "Has", "Tricepsz", "Váll"],
+        "image": "",
+        "sets": "2-4",
+        "reps": "",
+        "time": "30–60",
+        "weight": 0
+      },
+      {
+        "_id": 30,
+        "name": "Kitörés",
+        "workoutType": [1],
+        "workingMuscles": ["Combfeszítő izmok", "Farizmok", "Combhajlító izmok", "Vádli"],
+        "image": "",
+        "sets": "3-4",
+        "reps": "15-20",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 31,
+        "name": "Vádligép",
+        "workoutType": [1],
+        "workingMuscles": ["Vádli"],
+        "image": "",
+        "sets": "4",
+        "reps": "10-15",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 32,
+        "name": "Lábhajlítás",
+        "workoutType": [1],
+        "workingMuscles": ["Combhajlító izmok"],
+        "image": "",
+        "sets": "4",
+        "reps": "8-12",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 33,
+        "name": "Hasprés",
+        "workoutType": [1],
+        "workingMuscles": ["Has"],
+        "image": "",
+        "sets": "4",
+        "reps": "10-12",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 34,
+        "name": "Térdfelhúzás",
+        "workoutType": [1],
+        "workingMuscles": ["Has"],
+        "image": "",
+        "sets": "4",
+        "reps": "8-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 35,
+        "name": "Térdfelhúzás",
+        "workoutType": [1],
+        "workingMuscles": ["Has"],
+        "image": "",
+        "sets": "4",
+        "reps": "8-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 36,
+        "name": "Mellhez húzás széles fogással",
+        "workoutType": [1],
+        "workingMuscles": ["Hát"],
+        "image": "",
+        "sets": "4",
+        "reps": "6-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 37,
+        "name": "Háthoz húzás széles fogással",
+        "workoutType": [1],
+        "workingMuscles": ["Hát"],
+        "image": "",
+        "sets": "4",
+        "reps": "6-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 38,
+        "name": "Csuklóbehúzás",
+        "workoutType": [1],
+        "workingMuscles": ["Alkar"],
+        "image": "",
+        "sets": "4",
+        "reps": "10-12",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 39,
+        "name": "Csuklófeszítés",
+        "workoutType": [1],
+        "workingMuscles": ["Alkar"],
+        "image": "",
+        "sets": "4",
+        "reps": "10-12",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 40,
+        "name": "Kerékforgatás",
+        "workoutType": [1],
+        "workingMuscles": ["Farizmok", "Hát", "Vádli", "Combhajlító izmok", "Combfeszítő izmok", "Has", "Bicepsz", "Váll"],
+        "image": "",
+        "sets": "3-4",
+        "reps": "3-5",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 1,
+        "name": "",
+        "workoutType": [1],
+        "workingMuscles": ["", "", "", ""],
+        "image": "",
+        "sets": "4",
+        "reps": "8-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 1,
+        "name": "",
+        "workoutType": [1],
+        "workingMuscles": ["", "", "", ""],
+        "image": "",
+        "sets": "4",
+        "reps": "8-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 1,
+        "name": "",
+        "workoutType": [1],
+        "workingMuscles": ["", "", "", ""],
+        "image": "",
+        "sets": "4",
+        "reps": "8-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 1,
+        "name": "",
+        "workoutType": [1],
+        "workingMuscles": ["", "", "", ""],
+        "image": "",
+        "sets": "4",
+        "reps": "8-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 1,
+        "name": "",
+        "workoutType": [1],
+        "workingMuscles": ["", "", "", ""],
+        "image": "",
+        "sets": "4",
+        "reps": "8-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 1,
+        "name": "",
+        "workoutType": [1],
+        "workingMuscles": ["", "", "", ""],
+        "image": "",
+        "sets": "4",
+        "reps": "8-10",
+        "time": "",
+        "weight": 0
+      },
+      {
+        "_id": 1,
+        "name": "",
+        "workoutType": [1],
+        "workingMuscles": ["", "", "", ""],
+        "image": "",
+        "sets": "4",
+        "reps": "10",
+        "weight": 0
+      }
+    ]
+  }

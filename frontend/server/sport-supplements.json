@@ -1,13 +1,235 @@
 {
-  "sport-supplements": [
-    {
-      "_id": 1,
-      "name": "100% WHEY PROTEIN PROFESSIONAL (2,35 KG)",
-      "image": "https://shopbuilder.hu/images/product_images/5146_a20b64492bf4.webp",
-      "description": "A 100% Whey Protein* Professional-ban található tejsavó fehérje hozzájárul az izomtömeg növekedéséhez és fenntartásához, valamint a normál csontozat fenntartásához.",
-      "dosing": "Fogyassz naponta egy adagot (30 gramm, 3/4 adagolókanál) 250ml vízzel. Fogyassz egy adagot edzésnapokon edzés után, pihenőnapokon pedig bármikor a nap folyamán.",
-      "allergen": "Tejet, tojást, szóját, földimogyorót, zellert, rákféléket, halat, puhatestueket, kén-dioxidot és dióféléket tartalmazó élelmiszereket gyártó üzemben készült.",
-      "ingredients": ["Taurin", "L-Glutamin", "L-Arginin", "L-Leucin", "Bromelain", "Papain"]
-    }
-  ]
+    "sport-supplements": [
+      {
+        "_id": 1,
+        "manufacturer": "SCITEC NUTRITION",
+        "name": "100% WHEY PROTEIN PROFESSIONAL (2,35 KG)",
+        "image": "https://shopbuilder.hu/images/product_images/5146_a20b64492bf4.webp",
+        "description": "A 100% Whey Protein* Professional-ban található tejsavó fehérje hozzájárul az izomtömeg növekedéséhez és fenntartásához, valamint a normál csontozat fenntartásához.",
+        "price": 21990,
+        "dosing": "Fogyassz naponta egy adagot (30 gramm, 3/4 adagolókanál) 250ml vízzel. Fogyassz egy adagot edzésnapokon edzés után, pihenőnapokon pedig bármikor a nap folyamán.",
+        "allergen": "Tejet, tojást, szóját, földimogyorót, zellert, rákféléket, halat, puhatestueket, kén-dioxidot és dióféléket tartalmazó élelmiszereket gyártó üzemben készült.",
+        "ingredients": ["Taurin", "L-Glutamin", "L-Arginin", "L-Leucin", "Bromelain", "Papain"]
+      },
+      {
+        "_id": 2,
+        "manufacturer": "SCITEC NUTRITION",
+        "name": "100% WHEY PROTEIN PROFESSIONAL (0,5 KG)",
+        "image": "https://shopbuilder.hu/images/product_images/13922_953a48cda51b.webp",
+        "description": "A 100% Whey Protein* Professional-ban található tejsavó fehérje hozzájárul az izomtömeg növekedéséhez és fenntartásához, valamint a normál csontozat fenntartásához.",
+        "price": 5990,
+        "dosing": "Fogyassz naponta egy adagot (30 gramm, 3/4 adagolókanál) 250ml vízzel. Fogyassz egy adagot edzésnapokon edzés után, pihenőnapokon pedig bármikor a nap folyamán.",
+        "allergen": "Tejet, tojást, szóját, földimogyorót, zellert, rákféléket, halat, puhatestueket, kén-dioxidot és dióféléket tartalmazó élelmiszereket gyártó üzemben készült.",
+        "ingredients": ["Taurin", "L-Glutamin", "L-Arginin", "L-Leucin", "Bromelain", "Papain"]
+      },
+      {
+        "_id": 3,
+        "manufacturer": "SCITEC NUTRITION",
+        "name": "MULTI-PRO PLUS (30 PAK.)",
+        "image": "https://shopbuilder.hu/images/product_images/6891_b38942ae5035.webp",
+        "description": "A Multi Pro Plus Magas dózisban tartalmaz B-vitamin komplex-t és C-vitamint, valamint ásványi anyagokat, köztük magnéziumot, szelént, vasat és cinket.",
+        "price": 8990,
+        "dosing": "Vegyen be naponta 1 csomagot étkezés közben.",
+        "allergen": "Tej, tojás, glutén, szója, földimogyoró, mogyoró, zeller, hal és rákféle összetevőket feldolgozó üzemben készült!",
+        "ingredients": ["Multi-vitamin", "C-vitamin", "Kalcium-Magnézium", "Halolaj", "Szójalecitin"]
+      },
+      {
+        "_id": 4,
+        "manufacturer": "SCITEC NUTRITION",
+        "name": "BCAA + GLUTAMINE XPRESS (600 GR.)",
+        "image": "https://shopbuilder.hu/images/product_images/13026_168f3163b83a.webp",
+        "description": "A BCAA és glutamin 1:1 arányú kombinációja kivételesen kényelmes, és egyszerű módja ezeknek az izmokban nagy mennyiségben előforduló aminosavaknak a pótlására edzés közben, vagy akár az után. A BCAA + GLUTAMINE XPRESS ráadásul ezeket az aminosavakat egyedülállóan finom ízben biztosítja.",
+        "price": 9990,
+        "dosing": "Keverj össze napi 1 adag (12g, 1 és 1/4 adagolókanál) BCAA+ Glutamine Xpress italport 600 ml hideg vízzel. Edzés előtt, után, vagy akár közben is fogyaszthatod.",
+        "allergen": "Tej, tojás, szója, földimogyoró, diófélék, zeller, hal, rákfélék, kén-dioxid összetevőket feldolgozó üzemben készült!",
+        "ingredients": ["L-leucin", "L-izoleucin", "L-valin", "L-glutamin", "Taurin"]
+      },
+      {
+        "_id": 5,
+        "manufacturer": "BIOTECH USA",
+        "name": "COLLAGEN (300 GR.)",
+        "image": "https://shopbuilder.hu/images/product_images/14442_e2b7603c7576.webp",
+        "description": "A BioTechUSA Collagen kollagén por terméke praktikusan egyszerre biztosítja a hialuronsavat és a kollagént is.",
+        "price": 6990,
+        "dosing": "Keverj el 1 adag kollagén port (15 g = ½ adagolókanál = 2 púpos evőkanál) 200 ml vízben egy keverőpalack segítségével. Fogyassz naponta 1 adagot.",
+        "allergen": "Tejet, tojást, glutént, szóját, rákféléket, kén-dioxidot és dióféléket tartalmazó élelmiszereket gyártó üzemben készült. ",
+        "ingredients": ["kollagén", "hialuronsav", "C-Vitamin", "E-Vitamin"]
+      },
+      {
+        "_id": 6,
+        "manufacturer": "SCITEC NUTRITION",
+        "name": "COLLAGEN LIQUID (1 LIT.)",
+        "image": "https://shopbuilder.hu/images/product_images/6503_d58d0fdcf2a5.webp",
+        "description": "A Scitec kollagén ital hidrolizált (előemésztett) kollagén peptidet tartalmaz. A folyékony kollagén formulánk elsősorban I-es típusú kollagént tartalmaz, mely a bőrünkben lévő kollagén nagy részét alkotja.",
+        "price": 8490,
+        "dosing": "Oldjon fel naponta egy adag (25 ml) Collagen Liquid-t 250 ml vízzel és fogyassza éhgyomorra. Használat előtt jól felrázandó!",
+        "allergen": "A termék nem tartalmaz a 1169/2011/EU rendeletben meghatározott allergéneket.",
+        "ingredients": ["L-Arginin", "L-Prolin", "L-Alanin", "L-Aszparginsav", "L-Glutaminsav", "Glicin", "L-Hidroxi-prolin", "B6-vitamin (piridoxin)"]
+      },
+      {
+        "_id": 7,
+        "manufacturer": "PROTEIN BUZZ",
+        "name": "100% WHEY (3 KG)",
+        "image": "https://shopbuilder.hu/images/product_images/13468_9bcdb22f2886.webp",
+        "description": "Gyorsan hasznosuló, ideális aminosav összetétellel rendelkező fehérjepor, mely a termékhez hozzáadott Amino Tripeptid, BCAA és L-glutamin formulának köszönhető.",
+        "price": 17990,
+        "dosing": "Keverj el 1 adagot (28 g) 250–300 ml vízben. Naponta két adag fogyasztása ajánlott.",
+        "allergen": "-",
+        "ingredients": ["protein concentrate", "L-GLutamin", "L-arginine"]
+      },
+      {
+        "_id": 8,
+        "manufacturer": "SCITEC NUTRITION",
+        "name": "100% CREATINE (300 GR.)",
+        "image": "https://shopbuilder.hu/images/product_images/2164_b54554a5b7ba.webp",
+        "description": "Segít minden sejt, de elsődlegesen az izomsejtek, energiaellátásában, azáltal, hogy fokozza az adenozin-trifoszfát (ATP) képződést, amely sejtszintű energia-tartalékként szolgál, többek között az izom-összehúzódásokhoz.",
+        "price": 5790,
+        "dosing": "Ossza el a testsúlyát (kg) 3-al és ezt a mennyiséget (grammban) vegye be minden nap a terhelési fázisban (használat első hete). Ha letelt ez az időszak, fenntartó adagként ennek a fele javasolt. Fogyassza éhgyomorra, lehetőleg edzés után egyszerű szénhidrátokkal. A kreatin minden 3,4 grammjához 300 ml folyadékot használjon a megfelelő oldás eléréséhez.",
+        "allergen": "Tej, tojás, glutén, szója, földimogyoró, mogyoró, hal és rákféle összetevőket feldolgozó üzemben készült!",
+        "ingredients": ["Kreatin-monohidrát"]
+      },
+      {
+        "_id": 9,
+        "manufacturer": "BIOTECH USA",
+        "name": "100% PURE WHEY (4 KG)",
+        "image": "https://shopbuilder.hu/images/product_images/13848_1fa9b704d79e.webp",
+        "description": "Tejsavófehérje-komplex bromelain enzimmel, aminosavakkal, hozzáadott cukor nélkül, pálmaolaj-mentesen, édesítőszerrel.",
+        "price": 32990,
+        "dosing": "Keverjen el keverőpalackban 1 adag (28 g = 2 púpozott evőkanál) port 250 ml vízzel. Edzésnapokon fogyasszon 1 adagot edzést követően 45 percen belül és 1 adagot étkezések között. Pihenőnapokon fogyasszon 1 adagot reggel és 1 adagot este.",
+        "allergen": "Tejet, tojást, glutént, szóját, rákféléket, kén-dioxidot és dióféléket tartalmazó élelmiszereket gyártó üzemben készült. ",
+        "ingredients": ["Esszenciális aminosavak (EAAs)", "Feltételesen esszenciális aminosavak (CAAs)", "Nem esszenciális aminosavak (NAAs)", "Összes BCAA"]
+      },
+      {
+        "_id": 10,
+        "manufacturer": "OPTIMUM NUTRITION",
+        "name": "100% WHEY PROTEIN GOLD STANDARD (2,273 KG)",
+        "image": "https://shopbuilder.hu/images/product_images/3683_f3b6999cc5e7.webp",
+        "description": "A 100% Whey Protein Gold Standard egy kiváló biológiai hasznosulással rendelkező, gyorsan és könnyen felszívódó fehérje, és a lehető legideálisabb edzés után.",
+        "price": 26590,
+        "dosing": "A pozitív nitrogénegyensúly biztosításához fogyasszon kb. 1 g. proteint testsúlyának minden egyes fontjára számítva (tehát: testsúlykilogrammonként 2 g protein), magas fehérjetartalmú ételekből és táplálékkiegészítőkből.",
+        "allergen": "Contains Milk And Soy (Lecithin) Ingredients.",
+        "ingredients": ["L-Valine", "L-Threonine", "L-Isoleucine", "L-Leucine", "L-Lysine", "L-Proline" , "Glutamine & Precursors", "L-Aspartic Acid"]
+      },
+      {
+        "_id": 11,
+        "manufacturer": "SCITEC NUTRITION",
+        "name": "REVEX-16 (108 KAP.)",
+        "image": "https://shopbuilder.hu/images/product_images/6884_a6002e3fe478.webp",
+        "description": "Neked ajánljuk a terméket, ha diéta és edzés mellett úgy érzed, az utolsó pár kg, már makacsan ragaszkodik",
+        "price": 8990,
+        "dosing": "Naponta 3 kapszula bevétele ajánlott, lehetőleg üres gyomorra. Alkalmazása kúraszerűen ajánlott, 12 hét leteltével legalább 2 hét szünet tartása javasolt.",
+        "allergen": "Tej, tojás, glutén, szója, földimogyoró, mogyoró, zeller, hal és rákféle összetevőket feldolgozó üzemben készült!",
+        "ingredients": ["Zöldkávé-kivonat (50% klorogénsav)", "L-Fenilalanin", "L-Tirozin", "Koffein"]
+      },
+      {
+        "_id": 12,
+        "manufacturer": "SCITEC NUTRITION",
+        "name": "JUMBO! (3,52 KG)",
+        "image": "https://shopbuilder.hu/images/product_images/6100_c9425540aa87.webp",
+        "description": "A Jumbo a - nevéhez hűen - nagy adagjaival abban segíti a tömegelni vágyókat, hogy a kalória többletet könnyebben elérjék.",
+        "price": 17590,
+        "dosing": "Fogyassz egy adagot (220 gramm, 5 adagolókanál) naponta, 400ml vízzel. Edzésnapokon fogyassz edzés után, vagy étkezések között egy adagot. Pihenőnapokon étkezések között szedj egy adagot. ",
+        "allergen": "Tejet, szóját, glutént és mandulát tartalmaz. Tejet, tojást, glutént, szóját, földimogyorót, dióféléket, zellert, halat, rákféléket, puhatestűeket és kén-dioxidot tartalmazó összetevőket feldolgozó üzemben készült!",
+        "ingredients": ["6-CARB MATRIX", "Pantoténsav", "B6 Vitamin", "D Vitamin", "Kreatin-monohidrát és mikronizált kreatin-monohidrát", "Magnézium"]
+      },
+      {
+        "_id": 13,
+        "manufacturer": "SCITEC NUTRITION",
+        "name": "CHOCO PRO PROTEINSZELET (50 GR.)",
+        "image": "https://shopbuilder.hu/images/product_images/6616_d387b82920f8.webp",
+        "description": "Ha étkezések között szeretnél egy rostokban gazdag nassolni valót, ne is keresgélj tovább! A Choco Pro összetételénél fogva nem csak praktikus megoldást jelent ilyen esetekre, de nem utolsó sorban, finom is. ",
+        "price": 550,
+        "dosing": "A termék túlzott fogyasztása hashajtó hatású lehet.",
+        "allergen": "Tejet, szóját és mandulát tartalmaz. Tejet, tojást, szóját, földimogyorót, zellert, rákféléket, halat, puhatestűeket, kén-dioxidot és dióféléket tartalmazó élelmiszereket gyártó üzemben készült.",
+        "ingredients": ["tejfehérje koncentrátum", "frukto-oligoszacharidok", "kókuszzsír", "hidrolizált fehérje"]
+      },
+      {
+        "_id": 14,
+        "manufacturer": "SCITEC NUTRITION",
+        "name": "CALCIUM-MAGNESIUM (90 TAB.)",
+        "image": "https://shopbuilder.hu/images/product_images/4801_fd4bbc36cb6e.webp",
+        "description": "A test csontos váza a testtömeg 10-15%-át teszi ki. A csontok két jellemző tulajdonsága a szilárdság és rugalmasság. Ezek egyensúlya határozza meg a csontrendszer állapotát, ez pedig függ bizonyos ásványi anyagok szervezeten belüli mennyiségétől is!",
+        "price": 3590,
+        "dosing": "Naponta 1 db Calcium-Magnesium tabletta bevétele ajánlott étkezés közben. A tabletták bevonattal rendelkeznek a lenyelés megkönnyítésére.",
+        "allergen": "Tej, tojás, glutén, szója, földimogyoró, mogyoró, zeller, hal és rákféle összetevőket feldolgozó üzemben készült!s",
+        "ingredients": ["Kálcium-karbonát", "kálcium-glükonát", "magnézium-oxid", "magnézium-glükonát"]
+      },
+      {
+        "_id": 15,
+        "manufacturer": "SCITEC NUTRITION",
+        "name": "HOT BLOOD HARDCORE (700 GR.)",
+        "image": "https://shopbuilder.hu/images/product_images/15461_c5d9969fc564.webp",
+        "description": "A HOT BLOOD HARDCORE megújított hatóanyag komplexének köszönhetően támogatja testedet a fizikai igénybevétel, illetve kifejezetten nagy intenzitású edzés folyamán, mivel a termékben található 3 g kreatin tudományosan bizonyított módon növeli a teljesítményt az olyan, sorozatos, rövid ideig tartó, magas intenzitású erőkifejtéseknél, mint például a súlyzós edzés, vagy az intervallum kardió!",
+        "price": 10490,
+        "dosing": "Keverj össze naponta 2x1 adag (2x12,5g, 2x1 adagolókanál) Hot Blood Hardcore port 2x200 ml hideg vízzel. Fogyassz egy adagot 30 perccel edzés előtt, valamint egyet edzés közben.",
+        "allergen": "Tejet, tojást, glutént, szóját, földimogyorót, dióféléket, zellert, halat, rákféléket, puhatestűeket és kén-dioxidot tartalmazó összetevőket feldolgozó üzemben készült!",
+        "ingredients": ["maltodextrin", "dextróz", "béta-alanin", "L-karnitin", "L-arginin-hidroklorid", "koffein"]
+      },
+      {
+        "_id": 16,
+        "manufacturer": "BIOTECH USA",
+        "name": "ARTHRO FORTE (120 TAB.)",
+        "image": "https://shopbuilder.hu/images/product_images/7922_20cfe5ee6c77.webp",
+        "description": "Az összetevők között szerepel a glükózamin - kondroitin – MSM trió, továbbá azok a vitaminok és ásványi anyagok, amelyek valamilyen formában fontos szerepet töltenek be a csontok, porcok felépítésében és működésében.",
+        "price": 7490,
+        "dosing": "Fogyassz naponta 3 db tablettát egy nagy pohár vízzel. Az ajánlott fogyasztási mennyiséget ne lépd túl!",
+        "allergen": "Tejet, tojást, glutént, szóját, földimogyorót, dióféléket, zellert, halat, rákféléket, puhatestűeket és kén-dioxidot tartalmazó élelmiszereket gyártó üzemben készült.",
+        "ingredients": ["C Vitamin", "K2 Vitamin", "Kalcium", "Foszfor", "Mangán", "Metil-szulfonil-metán (MSM)", "Glükózamin-szulfát", "Hidrolizált porc por"]
+      },
+      {
+        "_id": 17,
+        "manufacturer": "SCITEC NUTRITION",
+        "name": "BCAA-XPRESS (700 GR.)",
+        "image": "https://shopbuilder.hu/images/product_images/6756_7af7b2a7d206.webp",
+        "description": "A BCAA Xpress olyan, 2:1:1-es arányban tartalmazza az elágazó láncú aminosavakat, ahogyan azok a szervezetünkben is megtalálhatók. Ezért termék fogyasztásával ezeknek az esszenciális aminosavaknak a pótlása bárki számára megoldható.",
+        "price": 10490,
+        "dosing": "Keverj össze naponta egy adag (7g=3/4 adagolókanál) BCAA Xpress port 300ml vízzel. Edzés előtt, közben, után, vagy étkezések között fogyaszd.",
+        "allergen": "Tej, tojás, glutén, szója, földimogyoró, mogyoró, zeller, hal és rákféle összetevőket feldolgozó üzemben készült.",
+        "ingredients": ["L-leucin", "L-valin", "L-izoleucin"]
+      },
+      {
+        "_id": 18,
+        "manufacturer": "PROTEIN BUZZ",
+        "name": "VITAMIN C 1000 (500 TAB.)",
+        "image": "https://shopbuilder.hu/images/product_images/13898_4d8feaf8aa4f.webp",
+        "description": "A javasolt mennyiség a mai napig vita tárgyát képezi. Mi halkan csak annyit jegyzünk meg, hogy a C-vitamin felfedezője, Szent-Györgyi Albert, napi 8-10 grammokat szedett belőle. 93 évet élt, és élete végéig megmaradt az életkedve. ",
+        "price": 6990,
+        "dosing": "A Buzz C-vitamin tablettából étkezéssel együtt szedj be naponta egy szemet.",
+        "allergen": "-",
+        "ingredients": ["Vitamin C"]
+      },
+      {
+        "_id": 19,
+        "manufacturer": "SCITEC NUTRITION",
+        "name": "SUPERHERO (285 GR.)",
+        "image": "https://shopbuilder.hu/images/product_images/13081_b96dad996564.webp",
+        "description": "A professzionális edzés előtti! Magas dózisú aminosav és koffein komplex, de a Superhero számos formulát is bevet, minőségi levédett aktív összetevőivel.",
+        "price": 9490,
+        "dosing": "Keverjen össze 1 adagot (9.5 g – 1 adagolókanál) 350 ml vízzel és fogyassza edzés előtt.",
+        "allergen": "Tej, tojás, glutén, szója, földimogyoró, mogyoró, zeller, hal és rákféle összetevőket feldolgozó üzemben készült!",
+        "ingredients": ["L-glutamin", "béta-alanin", "L-citrullin", "taurin", "Koffein", "SABEET TM (Céklagyökér-kivonat)"]
+      },
+      {
+        "_id": 20,
+        "manufacturer": "BIOTECH USA",
+        "name": "SUPER BURNER (120 TAB.)",
+        "image": "https://shopbuilder.hu/images/product_images/3625_0b67ad5bc539.webp",
+        "description": "Anyagcserét támogató hatású összetételének köszönhetően a Super Burner diétád szuper kiegészítője lehet! Mindezt természetesen stimulánsok nélkül!",
+        "price": 6990,
+        "dosing": "Pihenőnapokon fogyassz 2 tablettát reggel és 2 tablettát este. Edzésnapokon fogyassz 2 tablettát reggel és 2 tablettát 30 perccel edzés előtt. A javasolt fogyasztási mennyiséget ne lépd túl!",
+        "allergen": "Tejet, tojást, glutént, szóját, rákféléket, kén-dioxidot és dióféléket tartalmazó élelmiszereket gyártó üzemben készült. Gluténmentes az Európai Unió szabályozásának megfelelően.",
+        "ingredients": ["lecitin", "Cink", "Króm", "HCA", "CLA", "L-karnitin", "L-metionin", "L-lizin", "L-tirozin", "Inulin", "B6-vitamin"]
+      },
+      {
+        "_id": 0,
+        "manufacturer": "",
+        "name": "",
+        "image": "",
+        "description": "",
+        "price": 0,
+        "dosing": "",
+        "allergen": "",
+        "ingredients": ["", "", "", "", "", ""]
+      }
+    ]
 }

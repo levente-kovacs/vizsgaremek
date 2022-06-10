@@ -16,11 +16,11 @@ export class GenericDataTableComponent<T extends {[x: string]: any}> implements 
 
   @Input() columns: ITableColumn[] = [];
 
-  pageSize: number = 10;
+  pageSize: number = 20;
 
   startSlice: number = 0;
 
-  endSlice: number = 10;
+  endSlice: number = 20;
 
   page: number = 1;
 

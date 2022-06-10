@@ -1,12 +1,14 @@
+import { WorkoutExercise } from "./workout-exercise";
+
 export class WorkoutSchedule {
-  _id: number = 0;
-  name: string = "";
+  _id: string = '';
+  name: string = '';
   workoutType: string = '';
-  monday: string[] = [];
-  tuesday: string[] = [];
-  wednesday: string[] = [];
-  thursday: string[] = [];
-  friday: string[] = [];
-  saturday: string[] = [];
-  sunday: string[] = [];
+  monday: WorkoutExercise[] = [];
+  tuesday: WorkoutExercise[] = [];
+  wednesday: WorkoutExercise[] = [];
+  thursday: WorkoutExercise[] = [];
+  friday: WorkoutExercise[] = [];
+  saturday: WorkoutExercise[] = [];
+  sunday: WorkoutExercise[] = [];
 }

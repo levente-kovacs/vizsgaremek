@@ -1,5 +1,5 @@
 export class CalorieChart {
-  _id: number = 0;
+  _id: string = '';
   name: string = '';
   foodGroup: string = '';
   energy: number = 0;

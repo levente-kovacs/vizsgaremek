@@ -1,9 +1,11 @@
 export class WorkoutExercise {
-  _id: number = 0;
+  _id: string = '';
   name: string = '';
-  image: string = '';
   workoutType: string[] = [];
   workingMuscles: string[] = [];
+  image: string = '';
   sets: string = '';
   reps: string = '';
+  time: string = '';
+  weight: number = 0;
 }

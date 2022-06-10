@@ -6,24 +6,20 @@ import { ITableColumn } from '../generic-table/generic-data-table/generic-data-t
 })
 export class ConfigService {
 
+  public readonly apiUrl: string = 'http://localhost:3000/';
+
   calorieChartTableColumns: ITableColumn[] = [
     {key: '_id', title: '#'},
-    {key: 'name', title: 'Name'},
-    {key: 'description', title: 'Desc.'},
-    {key: 'price', title: 'Price'},
-    {key: 'active', title: 'Active'},
+    {key: 'name', title: 'Megnevezés'},
+    {key: 'foodGroup', title: 'Ételfajta'},
+    {key: 'energy', title: 'Energia'},
+    {key: 'kcal', title: 'kcal'},
+    {key: 'protein', title: 'Fehérje'},
+    {key: 'fat', title: 'Zsír'},
+    {key: 'carbohydrate', title: 'Szénhidrát'},
+    {key: 'fiber', title: 'Rost'},
+    {key: 'cholesterol', title: 'Koleszterin'},
   ];
 
   constructor() { }
 }
-
-// id: number = 0;
-// name: string = '';
-// foodGroup: string = '';
-// energy: number = 0;
-// kcal: number = 0;
-// protein: number = 0;
-// fat: number = 0;
-// carbohydrate: number = 0;
-// fiber: number = 0;
-// cholesterol: number = 0;
