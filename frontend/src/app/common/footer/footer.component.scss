@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+footer {
+  height: 15rem;
+}
+
 .btn {
   @include border-radius(20px);
 }

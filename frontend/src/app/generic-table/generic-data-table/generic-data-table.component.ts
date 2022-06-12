@@ -19,11 +19,11 @@ export class GenericDataTableComponent<T extends {[x: string]: any}> implements 
   @Output() selectOne: EventEmitter<T> = new EventEmitter<T>();
   @Output() deleteOne: EventEmitter<T> = new EventEmitter<T>();
 
-  pageSize: number = 20;
+  pageSize: number = 10;
 
   startSlice: number = 0;
 
-  endSlice: number = 20;
+  endSlice: number = 10;
 
   page: number = 1;
 

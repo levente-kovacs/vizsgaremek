@@ -12,8 +12,8 @@
 </div> -->
 
 <!-- Add new -->
-<div class="card card-plain mx-3 d-grid gap-2">
-    <button [routerLink]="['/', entity, '']" type="button" class="btn fw-bold text-uppercase">
+<div class="card card-plain mx-3 d-grid gap-2 my-5">
+    <button [routerLink]="['/', entity, '']" type="button" class="add__new btn fw-bold text-uppercase">
       Új elem felvétele
       <i class="fas fa-angle-right mx-2"></i>
     </button>
@@ -35,14 +35,14 @@
       <tr *ngFor="let row of list | slice:startSlice:endSlice">
         <td *ngFor="let col of columns"> {{ row[col.key] }} </td>
         <td>
-          <div class="btn-group text-center">
-            <button (click)="onSelect(row)" class="btn btn-info">
+          <!-- <div class="btn-group text-center"> -->
+            <button (click)="onSelect(row)" class="m-1 edit__button btn">
               <i class="fa fa-pencil"></i>
             </button>
-            <button (click)="onDelete(row)" class="btn btn-danger">
+            <button (click)="onDelete(row)" class="m-1 delete__button btn">
               <i class="fa fa-trash"></i>
             </button>
-          </div>
+          <!-- </div> -->
         </td>
       </tr>
     </tbody>
