@@ -15,17 +15,22 @@ export class GenericDataTableComponent<T extends {[x: string]: any}> implements 
   @Input() list: T[] = [];
   @Input() columns: ITableColumn[] = [];
   @Input() entity: string = '';
+  @Input() filterKeys: string[][] = [];
+  @Input() filterKey: string = '';
 
   @Output() selectOne: EventEmitter<T> = new EventEmitter<T>();
   @Output() deleteOne: EventEmitter<T> = new EventEmitter<T>();
 
+  phrase: string = '';
+
   pageSize: number = 10;
-
   startSlice: number = 0;
-
   endSlice: number = 10;
-
   page: number = 1;
+
+  columnHead: string = '';
+  direction: boolean = false;
+  sortColumn: string = '';
 
   get pageList(): number[] {
     const pageSize = Math.ceil( this.list.length / this.pageSize );
@@ -49,5 +54,12 @@ export class GenericDataTableComponent<T extends {[x: string]: any}> implements 
     this.page = pageNum;
     this.startSlice = this.pageSize * (pageNum - 1);
     this.endSlice = this.startSlice + this.pageSize;
+  }
+
+  // currentHead: string = 'id';
+
+  onColumnSelect(columnHead: string): void {
+    this.sortColumn = columnHead;
+    this.direction = !this.direction;
   }
 }

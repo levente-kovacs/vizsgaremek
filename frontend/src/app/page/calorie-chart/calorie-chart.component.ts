@@ -14,6 +14,8 @@ export class CalorieChartComponent implements OnInit {
   columns = this.config.calorieChartTableColumns;
   list$ = this.calorieChartService.getAll();
   entity = 'calorie-chart';
+  filterKeys: string[][] = this.config.calorieChartTableColumns.map(item => [item.key, item.title]);
+  filterKey: string = this.filterKeys[0][0];
 
   constructor(
     private config: ConfigService,

@@ -1,6 +1,6 @@
-<div class="container">
+<div class="container my-5">
   <div class="row">
-    <div *ngIf="(calorieChart$ | async) as calorieChart" class="col-6 offset-3">
+    <div *ngIf="(calorieChart$ | async) as calorieChart" class="col-lg-6 offset-lg-3">
       <h3 class="py-2">Adatok szerkesztése</h3>
       <form #calorieChartForm="ngForm" (ngSubmit)="onUpdate(calorieChartForm, calorieChart)">
 
@@ -15,7 +15,9 @@
           <div class="d-flex justify-content-between">
             <label for="">Megnevezés</label>
             <div [hidden]="calorieChartForm.controls['name']?.valid" class="error-message mt-1">
-              A megnevezés nagybetűvel kezdődjön, és 2-20 karkter hosszú lehet!
+              <small>
+                A megnevezés nagybetűvel kezdődjön, és 2-20 karakter hosszú lehet!
+              </small>
             </div>
           </div>
           <input name="name" [(ngModel)]="calorieChart.name" type="text" class="form-control"
@@ -26,7 +28,9 @@
           <div class="d-flex justify-content-between">
             <label for="">Ételfajta</label>
             <div [hidden]="calorieChartForm.controls['foodGroup']?.valid" class="error-message mt-1">
-              Az ételfajta 2-20 karkter hosszú lehet!
+              <small>
+                Az ételfajta 2-20 karakter hosszú lehet!
+              </small>
             </div>
           </div>
           <input name="foodGroup" [(ngModel)]="calorieChart.foodGroup" type="text" class="form-control"
@@ -37,7 +41,9 @@
           <div class="d-flex justify-content-between">
             <label for="">Energia</label>
             <div [hidden]="calorieChartForm.controls['energy']?.valid" class="error-message mt-1">
-              Az energia értéke 1-5 karakter hosszú lehet!
+              <small>
+                Az energia értéke 1-5 karakter hosszú lehet!
+              </small>
             </div>
           </div>
           <input name="energy" [(ngModel)]="calorieChart.energy" type="number" class="form-control"
@@ -48,7 +54,9 @@
           <div class="d-flex justify-content-between">
             <label for="">Kcal</label>
             <div [hidden]="calorieChartForm.controls['kcal']?.valid" class="error-message mt-1">
-              A kcal értéke 1-5 karakter hosszú lehet!
+              <small>
+                A kcal értéke 1-5 karakter hosszú lehet!
+              </small>
             </div>
           </div>
           <input name="kcal" [(ngModel)]="calorieChart.kcal" type="number" class="form-control"
@@ -59,7 +67,9 @@
           <div class="d-flex justify-content-between">
             <label for="">Fehérje</label>
             <div [hidden]="calorieChartForm.controls['protein']?.valid" class="error-message mt-1">
-              A fehérje értéke 1-5 karakter hosszú lehet!
+              <small>
+                A fehérje értéke 1-5 karakter hosszú lehet!
+              </small>
             </div>
           </div>
           <input name="protein" [(ngModel)]="calorieChart.protein" type="number" class="form-control"
@@ -70,7 +80,9 @@
           <div class="d-flex justify-content-between">
             <label for="">Zsír</label>
             <div [hidden]="calorieChartForm.controls['fat']?.valid" class="error-message mt-1">
-              A zsír értéke 1-5 karakter hosszú lehet!
+              <small>
+                A zsír értéke 1-5 karakter hosszú lehet!
+              </small>
             </div>
           </div>
           <input name="fat" [(ngModel)]="calorieChart.fat" type="numbert" class="form-control"
@@ -81,7 +93,9 @@
           <div class="d-flex justify-content-between">
             <label for="">Szénhidrát</label>
             <div [hidden]="calorieChartForm.controls['carbohydrate']?.valid" class="error-message mt-1">
-              A szénhidrát értéke 1-5 karakter hosszú lehet!
+              <small>
+                A szénhidrát értéke 1-5 karakter hosszú lehet!
+              </small>
             </div>
           </div>
           <input name="carbohydrate" [(ngModel)]="calorieChart.carbohydrate" type="number" class="form-control"
@@ -93,7 +107,9 @@
           <div class="d-flex justify-content-between">
             <label for="">Rost</label>
             <div [hidden]="calorieChartForm.controls['fiber']?.valid" class="error-message mt-1">
-              A rost értéke 1-5 karakter hosszú lehet!
+              <small>
+                A rost értéke 1-5 karakter hosszú lehet!
+              </small>
             </div>
           </div>
           <input name="fiber" [(ngModel)]="calorieChart.fiber" type="number" class="form-control"
@@ -105,7 +121,9 @@
           <div class="d-flex justify-content-between">
             <label for="">Koleszterin</label>
             <div [hidden]="calorieChartForm.controls['cholesterol']?.valid" class="error-message mt-1">
-              A koleszterin értéke 1-5 karakter hosszú lehet!
+              <small>
+                A koleszterin értéke 1-5 karakter hosszú lehet!
+              </small>
             </div>
           </div>
           <input name="cholesterol" [(ngModel)]="calorieChart.cholesterol" type="number" class="form-control"

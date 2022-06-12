@@ -2,6 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GenericDataTableComponent } from './generic-data-table/generic-data-table.component';
 import { RouterModule, Routes } from '@angular/router';
+import { SorterPipe } from './pipe/sorter.pipe';
+import { FilterPipe } from './pipe/filter.pipe';
+import { FormsModule } from '@angular/forms';
 
 
 const yourRoutes: Routes = [
@@ -13,11 +16,14 @@ export const yourRouting = RouterModule.forChild(yourRoutes);
 
 @NgModule({
   declarations: [
-    GenericDataTableComponent
+    GenericDataTableComponent,
+    SorterPipe,
+    FilterPipe
   ],
   imports: [
     CommonModule,
-    yourRouting
+    yourRouting,
+    FormsModule
   ],
   exports: [
     GenericDataTableComponent,
