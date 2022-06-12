@@ -14,6 +14,10 @@ import { WorkoutTypeComponent } from './page/workout-type/workout-type.component
 import { WorkoutScheduleComponent } from './page/workout-schedule/workout-schedule.component';
 import { CalorieChartEditorComponent } from './page/calorie-chart-editor/calorie-chart-editor.component';
 import { FormsModule } from '@angular/forms';
+import { SportSupplementEditorComponent } from './page/sport-supplement-editor/sport-supplement-editor.component';
+import { WorkoutExerciseEditorComponent } from './page/workout-exercise-editor/workout-exercise-editor.component';
+import { WorkoutScheduleEditorComponent } from './page/workout-schedule-editor/workout-schedule-editor.component';
+import { WorkoutTypeEditorComponent } from './page/workout-type-editor/workout-type-editor.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +30,10 @@ import { FormsModule } from '@angular/forms';
     WorkoutTypeComponent,
     WorkoutScheduleComponent,
     CalorieChartEditorComponent,
+    SportSupplementEditorComponent,
+    WorkoutExerciseEditorComponent,
+    WorkoutScheduleEditorComponent,
+    WorkoutTypeEditorComponent,
   ],
   imports: [
     BrowserModule,
