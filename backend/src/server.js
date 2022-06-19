@@ -11,7 +11,7 @@ const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
 // Authenctication.
-// const authenticateJwt = require('./auth/authenticate');
+const authenticateJwt = require('./auth/authenticate');
 // const adminOnly = require('./auth/adminOnly');
 // const authHandler = require('./auth/authHandler');
 
@@ -49,7 +49,8 @@ app.use(bodyParser.json());
 // app.use('/products', require('./controllers/product/routes'));
 // app.use('/customers', require('./controllers/customer/routes'));
 // app.use('/users', require('./controllers/user/routes'));
-app.use('/calorie-chart', require('./controller/calorie-chart/router'));
+// app.use('/calorie-chart', require('./controller/calorie-chart/router'));
+app.use('/calorie-chart', authenticateJwt, require('./controller/calorie-chart/router'));
 // app.use('/calorie-chart', require('./controllers/calorie-chart/routes'));
 // app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
