@@ -4,7 +4,12 @@ const idValidator = require('mongoose-id-validator');
 const CalorieChartSchema = mongoose.Schema({
     name: {
         type: String,
-        required: true
+        required: true,
+        // validate: {
+        //     validator: function(v) {
+        //         return /^[a-űA-Ű \-\.]{5,25}$/.test(v);
+        //     }
+        // }
     },
     foodGroup: {
         type: String,

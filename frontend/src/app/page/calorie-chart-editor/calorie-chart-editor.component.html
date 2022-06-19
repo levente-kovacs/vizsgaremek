@@ -16,12 +16,12 @@
             <label for="">Megnevezés</label>
             <div [hidden]="calorieChartForm.controls['name']?.valid" class="error-message mt-1">
               <small>
-                A megnevezés nagybetűvel kezdődjön, és 2-20 karakter hosszú lehet!
+                A megnevezés nagybetűvel kezdődjön, és 2-50 karakter hosszú lehet!
               </small>
             </div>
           </div>
           <input name="name" [(ngModel)]="calorieChart.name" type="text" class="form-control"
-            pattern="^[A-ZÁÉÓÖŐÜÚŰÍ].{2,19}$" required>
+            pattern="^[A-ZÁÉÓÖŐÜÚŰÍ].{1,49}$" required>
         </div>
 
         <div class="form-group mt-3">
