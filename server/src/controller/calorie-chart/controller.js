@@ -1,4 +1,4 @@
-const baseService = require('../base/service');
+const baseService = require('./service');
 const CalorieChart = require('../../models/calorie-chart.model');
 
 const service = baseService(CalorieChart);

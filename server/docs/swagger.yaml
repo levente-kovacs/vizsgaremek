@@ -11,6 +11,8 @@ paths:
       description: Returns a list of items of calorie-chart
       security:
         - bearerAuth: []
+      tags:
+        - Calorie-charts
       responses:
         '200':
           description: Success
@@ -30,6 +32,8 @@ paths:
       description: Creates a new item in calorie-chart
       security:
         - bearerAuth: []
+      tags:
+        - Calorie-charts        
       requestBody:
         required: true
         content:
@@ -55,73 +59,14 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
-    patch:
-      description: Updates an item of calorie-chart
-      parameters:
-        - in: path
-          name: _id
-          required: true
-          schema: 
-            type: string
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/Calorie-chart'
-      responses:
-        '200':
-          description: Calorie-chart item has been updated successfully
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Calorie-chart'
-        '400':
-          description: Invalid request when the post data is invalid
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Error'
-        '500':
-          description: Internal server error
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Error'
-    delete:
-      description: Removes a calorie-chart
-      parameters:
-        - in: path
-          name: _id
-          required: true
-          schema: 
-            type: string
-      responses:
-        '200':
-          description: Calorie-chart item has been deleted successfully
-          content:
-            application/json:
-              schema:
-                type: object
-                example: {}
-        '404':
-          description: Calorie-chart item based on id doesn't exist
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Error'
-        '500':
-          description: Internal server error
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Error'
-  /calorie-chart/{calorie-chart_id}:
+  /calorie-chart/{_id}:
     get:
       security:
         - bearerAuth: []
+      tags:
+        - Calorie-charts
       parameters:
-        - name: calorie-chart_id
+        - name: _id
           in: path
           required: true
           schema:
@@ -145,6 +90,66 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
+    patch:
+      description: Update one item of calorie-chart by _id
+      security:
+        - bearerAuth: []
+      tags:
+        - Calorie-charts
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Calorie-chart'
+      responses:
+        '200':
+          description: Calorie-chart updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Calorie-chart'
+        '501':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      description: Delete one item of calorie-chart by _id
+      security:
+        - bearerAuth: []
+      tags:
+        - Calorie-charts
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: One item of calorie-chart deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+        '501':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
 
 components:
   securitySchemes:

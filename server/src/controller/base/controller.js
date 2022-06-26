@@ -1,5 +1,13 @@
 const express = require('express');
-const baseService = require('../base/service');
+const baseService = require('./service');
+// const model = require('../../models/calorie-chart.model');
+
+
+// const service = baseService(model);
+// module.exports.findOne = (req, res, next) => {
+//     return service.findAll()
+//         .then( list => res.json(list) );
+// };
 
 module.exports = (model) => {
     const service = baseService(model);
@@ -15,7 +23,7 @@ module.exports = (model) => {
         },
 
         updateOne(req, res, next) {
-            return service.updateOne(req.params.id, req.body)
+            return service.update(req.params.id, req.body)
                 .then(entity => res.json(entity))
                 .catch(err => {
                     res.statusCode = 501;
@@ -24,7 +32,7 @@ module.exports = (model) => {
         },
 
         createOne(req, res, next) {
-            return service.createOne(req.body)
+            return service.create(req.body)
                 .then(entity => {
                     res.json(entity)
                 })
@@ -35,7 +43,7 @@ module.exports = (model) => {
         },
 
         deleteOne(req, res, next) {
-            return service.deleteOne(req.params.id)
+            return service.delete(req.params.id)
               .then( () =>{
                 res.status(202);
                 res.json('Delete successful.');
