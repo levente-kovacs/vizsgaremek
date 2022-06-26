@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { ConfigService, ITableColumn } from 'src/app/service/config.service';
 
-export interface ITableColumn {
-  title: string;
-  key: string;
-}
+// export interface ITableColumn {
+//   title: string;
+//   key: string;
+// }
 
 @Component({
   selector: 'generic-data-table',
@@ -37,7 +38,9 @@ export class GenericDataTableComponent<T extends {[x: string]: any}> implements 
     return new Array(pageSize).fill(1).map( (item, index) => index + 1 );
   }
 
-  constructor() { }
+  constructor(
+    private config: ConfigService
+  ) { }
 
   ngOnInit(): void {
   }

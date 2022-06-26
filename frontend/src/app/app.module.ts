@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +18,11 @@ import { SportSupplementEditorComponent } from './page/sport-supplement-editor/s
 import { WorkoutExerciseEditorComponent } from './page/workout-exercise-editor/workout-exercise-editor.component';
 import { WorkoutScheduleEditorComponent } from './page/workout-schedule-editor/workout-schedule-editor.component';
 import { WorkoutTypeEditorComponent } from './page/workout-type-editor/workout-type-editor.component';
+import { LoginComponent } from './page/login/login.component';
+import { UserComponent } from './page/user/user.component';
+import { UserEditorComponent } from './page/user-editor/user-editor.component';
+import { JwtInterceptor } from './service/jwt.interceptor';
+import { AuthService } from './service/auth.service';
 
 @NgModule({
   declarations: [
@@ -34,6 +39,9 @@ import { WorkoutTypeEditorComponent } from './page/workout-type-editor/workout-t
     WorkoutExerciseEditorComponent,
     WorkoutScheduleEditorComponent,
     WorkoutTypeEditorComponent,
+    LoginComponent,
+    UserComponent,
+    UserEditorComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,7 +50,16 @@ import { WorkoutTypeEditorComponent } from './page/workout-type-editor/workout-t
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: JwtInterceptor,
+      deps: [
+        AuthService,
+      ],
+      multi: true,
+    },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

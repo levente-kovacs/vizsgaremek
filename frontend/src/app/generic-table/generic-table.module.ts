@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { SorterPipe } from './pipe/sorter.pipe';
 import { FilterPipe } from './pipe/filter.pipe';
 import { FormsModule } from '@angular/forms';
+import { XPipePipe } from './pipe/x-pipe.pipe';
 
 
 const yourRoutes: Routes = [
@@ -18,7 +19,8 @@ export const yourRouting = RouterModule.forChild(yourRoutes);
   declarations: [
     GenericDataTableComponent,
     SorterPipe,
-    FilterPipe
+    FilterPipe,
+    XPipePipe
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,196 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Vizsgaremek Szerver API Dokumentáció
+  description: A Vizsgaremek végpontjainek részeletes leírása és használata
+servers:
+  - url: http://localhost:3000
+paths:
+  /calorie-chart:
+    get:
+      description: Returns a list of items of calorie-chart
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Calorie-chart'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      description: Creates a new item in calorie-chart
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Calorie-chart'
+      responses:
+        '201':
+          description: Calorie-chart has been created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Calorie-chart'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    patch:
+      description: Updates an item of calorie-chart
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema: 
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Calorie-chart'
+      responses:
+        '200':
+          description: Calorie-chart item has been updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Calorie-chart'
+        '400':
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      description: Removes a calorie-chart
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema: 
+            type: string
+      responses:
+        '200':
+          description: Calorie-chart item has been deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                example: {}
+        '404':
+          description: Calorie-chart item based on id doesn't exist
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /calorie-chart/{calorie-chart_id}:
+    get:
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: calorie-chart_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Calorie-chart data returned successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Calorie-chart'
+        '404':
+          description: Calorie-chart with the give ID was not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    Calorie-chart:
+      type: object
+      required:
+        - name
+        - foodGroup
+        - energy
+        - kcal
+        - protein
+        - fat
+        - carbohydrate
+        - fiber
+        - cholesterol
+      properties:
+        name:
+          type: string
+        foodGroup:
+          type: string
+        energy:
+          type: number
+        kcal:
+          type: number
+        protein:
+          type: number
+        fat:
+          type: number
+        carbohydrate:
+          type: number
+        fiber:
+          type: number
+        cholesterol:
+          type: number
+    Error:
+      type: object
+      required:
+        - message
+        - has_error
+      properties:
+        message:
+          type: string
+        has_error:
+          type: boolean

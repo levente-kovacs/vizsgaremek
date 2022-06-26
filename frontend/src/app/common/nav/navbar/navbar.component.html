@@ -11,12 +11,12 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav w-100">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" [routerLink]="['/workout-type']">Edzéstípusok</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" [routerLink]="['/workout-exercise']">Gyakorlatok</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/calorie-chart']">Kalória táblázat</a>
@@ -28,6 +28,17 @@
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
       </ul>
+      <button class="register__button" role="button" [routerLink]="['/login']">Belépés</button>
+
+
+      <a class="nav-link px-3" routerLink="/login">
+        <span *ngIf="(user$ | async)">Sign out</span>
+        <span *ngIf="!(user$ | async)">Sign in</span>
+      </a>
+
+
     </div>
   </div>
 </nav>
+
+

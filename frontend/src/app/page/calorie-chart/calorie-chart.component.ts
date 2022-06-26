@@ -30,7 +30,7 @@ export class CalorieChartComponent implements OnInit {
   }
 
   onDeleteOne(calorieChart: CalorieChart): void {
-    if (window.confirm('Biztosan törli ezt a vásárlót?')) {
+    if (window.confirm('Biztosan törli ezt az élelmiszert?')) {
       this.calorieChartService
         .remove(calorieChart._id)
         .subscribe(() => (this.list$ = this.calorieChartService.getAll()));

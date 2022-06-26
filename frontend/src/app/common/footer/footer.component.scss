@@ -4,6 +4,10 @@ footer {
   height: 15rem;
 }
 
+.copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .btn {
   @include border-radius(20px);
 }

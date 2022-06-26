@@ -36,7 +36,14 @@
     </thead>
     <tbody>
       <tr *ngFor="let row of list | filter:phrase:filterKey | sorter:sortColumn:direction | slice:startSlice:endSlice">
-        <td *ngFor="let col of columns"> {{ row[col.key] }} </td>
+        <td *ngFor="let col of columns">
+          <span *ngIf="!col.htmlOutput; else elseBlock">
+            {{ row[col.key] | xPipe:col.pipes:col.pipeArgs }}
+          </span>
+          <ng-template #elseBlock>
+            <span [innerHTML]="col.htmlOutput(row[col.key])"></span>
+          </ng-template>
+        </td>
         <td>
           <!-- <div class="btn-group text-center"> -->
             <button (click)="onSelect(row)" class="m-1 edit__button btn">

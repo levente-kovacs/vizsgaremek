@@ -1,1 +1,16 @@
-<p>workout-type works!</p>
+<div class="container mt-3">
+  <div class="row">
+    <h2>Edzéstípusok</h2>
+
+    <generic-data-table
+      *ngIf="list$ | async as list"
+      [columns]="columns"
+      [list]="list"
+      [entity]="entity"
+      [filterKeys]="filterKeys"
+      [filterKey]="filterKey"
+      (selectOne)="onSelectOne($event)"
+      (deleteOne)="onDeleteOne($event)">
+    ></generic-data-table>
+  </div>
+</div>

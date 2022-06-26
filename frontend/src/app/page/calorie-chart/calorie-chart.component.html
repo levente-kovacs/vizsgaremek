@@ -9,15 +9,19 @@
       <span data-feather="calendar" class="align-text-bottom"></span> This week </button>
   </div>
 </div> -->
-<h2>Kalóriatáblázat</h2>
+<div class="container mt-3">
+  <div class="row">
+    <h2>Kalóriatáblázat</h2>
 
-<generic-data-table
-  *ngIf="list$ | async as list"
-  [columns]="columns"
-  [list]="list"
-  [entity]="entity"
-  [filterKeys]="filterKeys"
-  [filterKey]="filterKey"
-  (selectOne)="onSelectOne($event)"
-  (deleteOne)="onDeleteOne($event)">
-></generic-data-table>
+    <generic-data-table
+      *ngIf="list$ | async as list"
+      [columns]="columns"
+      [list]="list"
+      [entity]="entity"
+      [filterKeys]="filterKeys"
+      [filterKey]="filterKey"
+      (selectOne)="onSelectOne($event)"
+      (deleteOne)="onDeleteOne($event)">
+    ></generic-data-table>
+  </div>
+</div>
