@@ -31,7 +31,7 @@ module.exports = (model, populateList = []) => {
             throw new Error(error);
         },
         deleteOne: (id) =>{
-            console.log('service model: ', model)
+            // console.log('service model: ', model)
             return model.findByIdAndRemove(id)
         },
     };

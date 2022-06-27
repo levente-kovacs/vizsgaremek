@@ -1,1 +1,130 @@
-<p>sport-supplement-editor works!</p>
+<div class="container my-5">
+  <div class="row">
+    <div *ngIf="(sportSupplement$ | async) as sportSupplement" class="col-lg-6 offset-lg-3">
+      <h3 class="py-2">Adatok szerkesztése</h3>
+      <form #sportSupplementForm="ngForm" (ngSubmit)="onUpdate(sportSupplementForm, sportSupplement)">
+
+        <div class=" mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">#</label>
+          </div>
+          <input name="id" [(ngModel)]="sportSupplement._id" type="text" class="form-control" disabled required>
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Megnevezés</label>
+            <div [hidden]="sportSupplementForm.controls['name']?.valid" class="error-message mt-1">
+              <small>
+                A megnevezés 2-50 karakter hosszú lehet!
+              </small>
+            </div>
+          </div>
+          <input name="name" [(ngModel)]="sportSupplement.name" type="text" class="form-control"
+            pattern="^.{1,49}$" required>
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Gyártó</label>
+            <div [hidden]="sportSupplementForm.controls['manufacturer']?.valid" class="error-message mt-1">
+              <small>
+                A gyártó végig nagybetűs, 2-30 karakter hosszú lehet!
+              </small>
+            </div>
+          </div>
+          <input name="manufacturer" [(ngModel)]="sportSupplement.manufacturer" type="text" class="form-control"
+            pattern="^[A-ZÁÉÓÖŐÜÚŰÍ \.\,\-\']{2,29}$" required>
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Kép linkje</label>
+            <div [hidden]="sportSupplementForm.controls['image']?.valid" class="error-message mt-1">
+              <small>
+                A link legalább 10 karakter hosszú legyen!
+              </small>
+            </div>
+          </div>
+          <input name="image" [(ngModel)]="sportSupplement.image" type="text" class="form-control"
+            pattern="^.{10,}$" required>
+
+          <img class="image col-8 offset-2" [src]="sportSupplement.image">
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Leírás</label>
+            <div [hidden]="sportSupplementForm.controls['description']?.valid" class="error-message mt-1">
+              <small>
+                A leírás értéke 5-250 karakter hosszú lehet!
+              </small>
+            </div>
+          </div>
+          <input name="description" [(ngModel)]="sportSupplement.description" type="text" class="form-control"
+            pattern="^.{5,250}$" required>
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Ár</label>
+            <div [hidden]="sportSupplementForm.controls['price']?.valid" class="error-message mt-1">
+              <small>
+                Az ár értéke 1-6 karakter hosszú lehet!
+              </small>
+            </div>
+          </div>
+          <input name="price" [(ngModel)]="sportSupplement.price" type="number" class="form-control"
+            pattern="^[0-9.]{1,6}$" required>
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Adagolás</label>
+            <div [hidden]="sportSupplementForm.controls['dosing']?.valid" class="error-message mt-1">
+              <small>
+                Az adagolás értéke 5-250 karakter hosszú lehet!
+              </small>
+            </div>
+          </div>
+          <input name="dosing" [(ngModel)]="sportSupplement.dosing" type="text" class="form-control"
+            pattern="^.{5,250}$" required>
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Allergia</label>
+            <div [hidden]="sportSupplementForm.controls['allergen']?.valid" class="error-message mt-1">
+              <small>
+                Az allergén infó értéke 1-250 karakter hosszú lehet!
+              </small>
+            </div>
+          </div>
+          <input name="allergen" [(ngModel)]="sportSupplement.allergen" type="text" class="form-control"
+            pattern="^.{1,250}$"
+            required>
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Összetevők</label>
+            <div [hidden]="sportSupplementForm.controls['ingredients']?.valid" class="error-message mt-1">
+              <small>
+                Az összetevők értéke 5-250 karakter hosszú lehet!
+              </small>
+            </div>
+          </div>
+          <input name="ingredients" [(ngModel)]="sportSupplement.ingredients" type="text" class="form-control"
+            pattern="^.{5,250}$"
+            required>
+        </div>
+
+
+        <button [disabled]="sportSupplementForm.invalid || clicked" type="submit" class="btn btn-success col-12 btn-lg mt-5">
+          <i *ngIf="!clicked" class="fa fa-save"></i>
+          <i *ngIf="clicked" class="fa fa-sync"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

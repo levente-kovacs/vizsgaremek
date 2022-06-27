@@ -48,11 +48,11 @@ app.use('/login', require('./controller/login/router'));
 // app.use('/customers', require('./controllers/customer/routes'));
 // app.use('/users', require('./controllers/user/routes'));
 // app.use('/calorie-chart', require('./controller/calorie-chart/router'));
-app.use('/calorie-chart', authenticateJwt, require('./controller/calorie-chart/router'));
+app.use('/calorie-chart', require('./controllers/calorie-chart/router'));
 app.use('/sport-supplement',  require('./controller/sport-supplement/router'));
 app.use('/workout-type',  require('./controller/workout-type/router'));
 app.use('/workout-exercise',  require('./controller/workout-exercise/router'));
-app.use('/user', require('./controller/user/router'));
+app.use('/user', authenticateJwt, require('./controller/user/router'));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // app.use( (err, req, res, next) => {

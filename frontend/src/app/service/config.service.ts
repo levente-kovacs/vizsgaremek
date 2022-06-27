@@ -21,12 +21,10 @@ export class ConfigService {
     {
       key: "_id", title: "#",
       pipes: [ConfigService.curveLongString],
-      pipeArgs: [[0, 6]]
+      pipeArgs: [[0, 3]]
     },
     {
       key: 'name', title: 'Megnevezés',
-      pipes: [ConfigService.curveLongString],
-      pipeArgs: [[0, 6]]
     },
     {key: 'foodGroup', title: 'Ételfajta'},
     {key: 'energy', title: 'Energia'},
@@ -39,33 +37,72 @@ export class ConfigService {
   ];
 
   sportSupplementTableColumns: ITableColumn[] = [
-    {key: '_id', title: '#'},
-    {key: 'manufacturer', title: 'Gyártó'},
-    {key: 'name', title: 'Megnevezés'},
-    {key: 'image', title: 'Kép'},
-    {key: 'description', title: 'Leírás'},
-    {key: 'price', title: 'Ár'},
-    {key: 'dosing', title: 'Adagolás'},
-    {key: 'allergen', title: 'Allergia'},
-    {key: 'ingredients', title: 'Összetevők'},
+    {
+      key: '_id', title: '#',
+      pipes: [ConfigService.curveLongString],
+      pipeArgs: [[0, 3]]
+    },
+    {
+      key: 'manufacturer', title: 'Gyártó',
+    },
+    {
+      key: 'name', title: 'Megnevezés',
+    },
+    {
+      key: 'image', title: 'Kép',
+    },
+    {
+      key: 'description', title: 'Leírás',
+      pipes: [ConfigService.curveLongString],
+      pipeArgs: [[0, 15]]
+    },
+    {
+      key: 'price', title: 'Ár',
+    },
+    {
+      key: 'dosing', title: 'Adagolás',
+      pipes: [ConfigService.curveLongString],
+      pipeArgs: [[0, 20]]
+    },
+    {
+      key: 'allergen', title: 'Allergia',
+      pipes: [ConfigService.curveLongString],
+      pipeArgs: [[0, 15]]
+    },
+    {
+      key: 'ingredients', title: 'Összetevők',
+      pipes: [ConfigService.curveLongString],
+      pipeArgs: [[0, 2]]
+    },
   ];
 
   workoutTypeTableColumns: ITableColumn[] = [
-    {key: '_id', title: '#'},
+    {
+      key: '_id', title: '#',
+      pipes: [ConfigService.curveLongString],
+      pipeArgs: [[0, 3]]
+    },
     {key: 'type', title: 'Típus'},
     {key: 'description', title: 'Leírás'},
     {key: 'image', title: 'Kép'},
   ];
 
   workoutExerciseTableColumns: ITableColumn[] = [
-    {key: '_id', title: '#'},
+    {
+      key: '_id', title: '#',
+      pipes: [ConfigService.curveLongString],
+      pipeArgs: [[0, 3]]
+    },
     {key: 'name', title: 'Megnevezés'},
-    {key: 'workoutType', title: 'Edzéstípus'},
-    {key: 'workingMuscles', title: 'Megdolgozott izmok'},
+    {
+      key: 'workingMuscles', title: 'Megdolgozott izmok',
+      pipes: [ConfigService.curveLongString],
+      pipeArgs: [[0, 3]]
+    },
     {key: 'sets', title: 'Sorozat'},
     {key: 'reps', title: 'Ismétlés'},
-    {key: 'time', title: 'Idő'},
-    {key: 'weight', title: 'Súly'},
+    {key: 'time', title: 'Idő(s)'},
+    {key: 'weight', title: 'Súly(kg)'},
   ];
 
   userTableColumns: ITableColumn[] = [
