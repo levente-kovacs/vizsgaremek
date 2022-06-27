@@ -9,7 +9,6 @@ import { AuthService } from 'src/app/service/auth.service';
 export class NavbarComponent implements OnInit {
 
   user$ = this.auth.user$;
-  // user$ = this.auth.currentUserSubject$;
 
   constructor(
     private auth: AuthService,

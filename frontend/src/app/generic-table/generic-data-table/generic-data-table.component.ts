@@ -59,8 +59,6 @@ export class GenericDataTableComponent<T extends {[x: string]: any}> implements 
     this.endSlice = this.startSlice + this.pageSize;
   }
 
-  // currentHead: string = 'id';
-
   onColumnSelect(columnHead: string): void {
     this.sortColumn = columnHead;
     this.direction = !this.direction;

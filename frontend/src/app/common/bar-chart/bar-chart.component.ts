@@ -10,11 +10,11 @@ import { Label, Color } from 'ng2-charts';
 export class BarChartComponent implements OnInit {
 
 
-  @Input() barChartLabels: Label[] = ['new', 'paid'];
+  @Input() barChartLabels: Label[] = [];
   @Input() barChartData: ChartDataSets[] = [
     {
       data: [0, 0, 0],
-      label: 'Számlák',
+      label: '',
     },
   ];
   // @Input() barChartColor: Color[] = [];
