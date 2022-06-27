@@ -19,7 +19,7 @@ const authHandler = require('./auth/authHandler');
 const swaggerDocument = YAML.load('./docs/swagger.yaml');
 
 // mongodb+srv://vizsgaremek:vizsgaremek@cluster0.vq3ma.mongodb.net/vizsgaremek?retryWrites=true&w=majority
-
+// eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmI0ZDc5YzFhOTM2YjlhZmY2MjNhMWIiLCJlbWFpbCI6Im1hZ3lhci5tQGdtYWlsLmNvbSIsInJvbGUiOjEsImlhdCI6MTY1NjMxNTMxOSwiZXhwIjoxNjU2MzE4OTE5fQ.X5EcB3uSWAiY5bdCE4U1cKhmrbOihh1Nsha9AjQWiAo
 
 const { host, user, pass } = config.get('database');
 mongoose.connect(`mongodb+srv://${host}`, {
@@ -49,10 +49,10 @@ app.use('/login', require('./controller/login/router'));
 // app.use('/users', require('./controllers/user/routes'));
 // app.use('/calorie-chart', require('./controller/calorie-chart/router'));
 app.use('/calorie-chart', require('./controllers/calorie-chart/router'));
-app.use('/sport-supplement',  require('./controller/sport-supplement/router'));
-app.use('/workout-type',  require('./controller/workout-type/router'));
-app.use('/workout-exercise',  require('./controller/workout-exercise/router'));
-app.use('/user', authenticateJwt, require('./controller/user/router'));
+app.use('/sport-supplement',  require('./controllers/sport-supplement/router'));
+app.use('/workout-type',  require('./controllers/workout-type/router'));
+app.use('/workout-exercise',  require('./controllers/workout-exercise/router'));
+app.use('/user', authenticateJwt, require('./controllers/user/router'));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // app.use( (err, req, res, next) => {

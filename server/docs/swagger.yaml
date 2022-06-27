@@ -149,6 +149,578 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
+  /sport-supplement:
+    get:
+      description: Returns a list of sport-supplements
+      security:
+        - bearerAuth: []
+      tags:
+        - Sport-supplements
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Sport-supplement'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      description: Creates a new sport-supplement
+      security:
+        - bearerAuth: []
+      tags:
+        - Sport-supplements        
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Sport-supplement'
+      responses:
+        '201':
+          description: Sport-supplement has been created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Sport-supplement'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /sport-supplement/{_id}:
+    get:
+      security:
+        - bearerAuth: []
+      tags:
+        - Sport-supplements
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Sport-supplement data returned successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Sport-supplement'
+        '404':
+          description: Sport-supplement with the give ID was not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    patch:
+      description: Update a sport-supplement by _id
+      security:
+        - bearerAuth: []
+      tags:
+        - Sport-supplements
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Sport-supplement'
+      responses:
+        '200':
+          description: Sport-supplement updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Sport-supplement'
+        '501':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      description: Delete a sport-supplement by _id
+      security:
+        - bearerAuth: []
+      tags:
+        - Sport-supplements
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: One sport-supplement deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+        '501':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /user:
+    get:
+      description: Returns a user
+      security:
+        - bearerAuth: []
+      tags:
+        - Users
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      description: Creates a new user
+      security:
+        - bearerAuth: []
+      tags:
+        - Users        
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        '201':
+          description: User has been created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /user/{_id}:
+    get:
+      security:
+        - bearerAuth: []
+      tags:
+        - Users
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: User data returned successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '404':
+          description: User with the give ID was not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    patch:
+      description: Update one item of user by _id
+      security:
+        - bearerAuth: []
+      tags:
+        - Users
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        '200':
+          description: User updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '501':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      description: Delete one item of user by _id
+      security:
+        - bearerAuth: []
+      tags:
+        - Users
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: One item of user deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+        '501':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /workout-exercise:
+    get:
+      description: Returns a workout-exercise
+      security:
+        - bearerAuth: []
+      tags:
+        - Workout-exercises
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Workout-exercise'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      description: Creates a new workout-exercise
+      security:
+        - bearerAuth: []
+      tags:
+        - Workout-exercises        
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Workout-exercise'
+      responses:
+        '201':
+          description: Workout-exercise has been created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Workout-exercise'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /workout-exercise/{_id}:
+    get:
+      security:
+        - bearerAuth: []
+      tags:
+        - Workout-exercises
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Workout-exercise data returned successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Workout-exercise'
+        '404':
+          description: Workout-exercise with the give ID was not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    patch:
+      description: Update one workout-exercise by _id
+      security:
+        - bearerAuth: []
+      tags:
+        - Workout-exercises
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Workout-exercise'
+      responses:
+        '200':
+          description: Workout-exercise updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Workout-exercise'
+        '501':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      description: Delete workout-exercise by _id
+      security:
+        - bearerAuth: []
+      tags:
+        - Workout-exercises
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: One workout-exercise deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+        '501':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /workout-type:
+    get:
+      description: Returns a workout-type
+      security:
+        - bearerAuth: []
+      tags:
+        - Workout-types
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/WorkoutType'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      description: Creates a new workout-type
+      security:
+        - bearerAuth: []
+      tags:
+        - Workout-types        
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WorkoutType'
+      responses:
+        '201':
+          description: Workout-type has been created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WorkoutType'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /workout-type/{_id}:
+    get:
+      security:
+        - bearerAuth: []
+      tags:
+        - Workout-types
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Workout-type data returned successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WorkoutType'
+        '404':
+          description: Workout-type with the give ID was not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    patch:
+      description: Update one workout-type by _id
+      security:
+        - bearerAuth: []
+      tags:
+        - Workout-types
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WorkoutType'
+      responses:
+        '200':
+          description: Workout-type updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WorkoutType'
+        '501':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      description: Delete workout-type by _id
+      security:
+        - bearerAuth: []
+      tags:
+        - Workout-types
+      parameters:
+        - name: _id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: One workout-type deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+        '501':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
 
 
 components:
@@ -189,6 +761,92 @@ components:
           type: number
         cholesterol:
           type: number
+    Sport-supplement:
+      type: object
+      required:
+        - name
+        - description
+        - price
+        - dosing
+        - allergen
+        - ingredients
+      properties:
+        manufacturer:
+          type: string
+        name:
+          type: string
+        image:
+          type: string
+        description:
+          type: string
+        price:
+          type: number
+        dosing:
+          type: string
+        allergen:
+          type: string
+        ingredients:
+          type: array
+          items:
+            type: string
+    User:
+      type: object
+      required:
+        - email
+        - password
+      properties:
+        firstName:
+          type: string
+        lastName:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+        active:
+          type: boolean
+        role:
+          type: string
+        accessToken:
+          type: string
+    Workout-exercise:
+      type: object
+      required:
+        - name
+        - workoutType
+        - workingMuscles
+      properties:
+        name:
+          type: string
+        workoutType:
+          type: object
+          $ref: "#/components/schemas/WorkoutType"
+        workingMuscles:
+          type: array
+          items:
+            type: string
+        image:
+          type: string
+        sets:
+          type: string
+        reps:
+          type: string
+        time:
+          type: string
+        weight:
+          type: number
+    WorkoutType:
+      type: object
+      required:
+        - type
+        - description
+      properties:
+        type:
+          type: string
+        description:
+          type: string
+        image:
+          type: string
     Error:
       type: object
       required:
