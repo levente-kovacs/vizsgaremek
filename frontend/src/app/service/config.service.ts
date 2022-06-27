@@ -59,6 +59,7 @@ export class ConfigService {
 
   workoutExerciseTableColumns: ITableColumn[] = [
     {key: '_id', title: '#'},
+    {key: 'name', title: 'Megnevezés'},
     {key: 'workoutType', title: 'Edzéstípus'},
     {key: 'workingMuscles', title: 'Megdolgozott izmok'},
     {key: 'sets', title: 'Sorozat'},

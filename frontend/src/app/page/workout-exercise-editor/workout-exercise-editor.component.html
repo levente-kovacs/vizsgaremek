@@ -1,1 +1,134 @@
-<p>workout-exercise-editor works!</p>
+<div class="container my-5">
+  <div class="row">
+    <div *ngIf="(workoutExercise$ | async) as workoutExercise" class="col-lg-6 offset-lg-3">
+      <h3 class="py-2">Adatok szerkesztése</h3>
+      <form #workoutExerciseForm="ngForm" (ngSubmit)="onUpdate(workoutExerciseForm, workoutExercise)">
+
+        <div class=" mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">#</label>
+          </div>
+          <input name="id" [(ngModel)]="workoutExercise._id" type="text" class="form-control" disabled required>
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Megnevezés</label>
+            <div [hidden]="workoutExerciseForm.controls['name']?.valid" class="error-message mt-1">
+              <small>
+                A megnevezés nagybetűvel kezdődjön, és 2-50 karakter hosszú lehet!
+              </small>
+            </div>
+          </div>
+          <input name="name" [(ngModel)]="workoutExercise.name" type="text" class="form-control"
+            pattern="^[A-ZÁÉÓÖŐÜÚŰÍ].{1,49}$" required>
+        </div>
+
+        <div class="form-group">
+          <label>Jelenlegi edzéstípus: {{workoutExercise.workoutType.type| json }}</label>
+
+          <div [hidden]="workoutExerciseForm.controls['workoutType.type']?.valid" class="error-message mt-1 text-end">
+            Válassz a listából!
+          </div>
+          <select class="custom-select border col-12 mr-5" name="product" [(ngModel)]="workoutExercise.workoutType"
+            required>
+            <option [value]="workoutExercise.workoutType.type" selected disabled hidden>
+              {{workoutExercise.workoutType.type}}</option>
+            <option *ngFor="let workoutType of workoutTypes$ | async" [value]="workoutType._id">{{ workoutType.type }}
+            </option>
+          </select>
+        </div>
+
+        <!-- <div *ngFor="let workoutType of workoutTypes$ | async">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"  [value]="workoutType._id" [checked]="workoutExercise.workoutType">
+            <label class="form-check-label" for="flexRadioDefault1">
+              {{ workoutType.type }}
+            </label>
+          </div>
+        </div> -->
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Megdolgozott izmok</label>
+            <div [hidden]="workoutExerciseForm.controls['workingMuscles']?.valid" class="error-message mt-1">
+              <small>
+                Az izom legalább 2 karakter hosszú legyen!
+              </small>
+            </div>
+          </div>
+          <input name="workingMuscles" [(ngModel)]="workoutExercise.workingMuscles" type="text" class="form-control"
+            pattern="^.{2,}$" required>
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Kép</label>
+            <div [hidden]="workoutExerciseForm.controls['image']?.valid" class="error-message mt-1">
+              <small>
+                A kép címe legalább 2 karakter hosszú legyen!
+              </small>
+            </div>
+          </div>
+          <input name="image" [(ngModel)]="workoutExercise.image" type="text" class="form-control" pattern="^^.{2,}$$">
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Sorozatok</label>
+            <div [hidden]="workoutExerciseForm.controls['sets']?.valid" class="error-message mt-1">
+              <small>
+                A sorozatok értéke 1-5 karakter hosszú lehet!
+              </small>
+            </div>
+          </div>
+          <input name="sets" [(ngModel)]="workoutExercise.sets" type="text" class="form-control" pattern="^.{1,5}$">
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Ismétlesek</label>
+            <div [hidden]="workoutExerciseForm.controls['reps']?.valid" class="error-message mt-1">
+              <small>
+                Az ismétlesek értéke 1-5 karakter hosszú lehet!
+              </small>
+            </div>
+          </div>
+          <input name="reps" [(ngModel)]="workoutExercise.reps" type="text" class="form-control" pattern="^.{1,5}$">
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Időintervallum</label>
+            <div [hidden]="workoutExerciseForm.controls['time']?.valid" class="error-message mt-1">
+              <small>
+                Az Időintervallum értéke 1-5 karakter hosszú lehet!
+              </small>
+            </div>
+          </div>
+          <input name="time" [(ngModel)]="workoutExercise.time" type="text" class="form-control" pattern="^.{1,5}$">
+        </div>
+
+        <div class="form-group mt-3">
+          <div class="d-flex justify-content-between">
+            <label for="">Súly</label>
+            <div [hidden]="workoutExerciseForm.controls['weight']?.valid" class="error-message mt-1">
+              <small>
+                A súly értéke 1-4 karakter hosszú lehet!
+              </small>
+            </div>
+          </div>
+          <input name="weight" [(ngModel)]="workoutExercise.weight" type="number" class="form-control"
+            pattern="^[0-9]{1,4}$">
+        </div>
+
+
+        <button [disabled]="workoutExerciseForm.invalid || clicked" type="submit"
+          class="btn btn-success col-12 btn-lg mt-5">
+          <i *ngIf="!clicked" class="fa fa-save"></i>
+          <i *ngIf="clicked" class="fa fa-sync"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

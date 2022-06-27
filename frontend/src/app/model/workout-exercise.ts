@@ -1,7 +1,9 @@
+import { WorkoutType } from "./workout-type";
+
 export class WorkoutExercise {
   _id: string = '';
   name: string = '';
-  workoutType: string[] = [];
+  workoutType: WorkoutType = new WorkoutType();
   workingMuscles: string[] = [];
   image: string = '';
   sets: string = '';

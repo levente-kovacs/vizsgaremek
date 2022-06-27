@@ -9,7 +9,7 @@ import { XPipePipe } from './pipe/x-pipe.pipe';
 
 
 const yourRoutes: Routes = [
-  { path: '',  component: GenericDataTableComponent }
+  // { path: '',  component: GenericDataTableComponent }
 ];
 
 export const yourRouting = RouterModule.forChild(yourRoutes);

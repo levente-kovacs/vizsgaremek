@@ -23,6 +23,7 @@ import { UserComponent } from './page/user/user.component';
 import { UserEditorComponent } from './page/user-editor/user-editor.component';
 import { JwtInterceptor } from './service/jwt.interceptor';
 import { AuthService } from './service/auth.service';
+import { HomeComponent } from './page/home/home.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { AuthService } from './service/auth.service';
     LoginComponent,
     UserComponent,
     UserEditorComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

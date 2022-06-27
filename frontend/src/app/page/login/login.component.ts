@@ -23,7 +23,6 @@ export class LoginComponent implements OnInit {
 
   onLogin(): void {
     this.auth.login(this.loginData);
-    console.log('login', this.loginData)
   }
 
   // user: User = new User();

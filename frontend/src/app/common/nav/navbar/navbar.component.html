@@ -28,13 +28,17 @@
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
       </ul>
-      <button class="register__button" role="button" [routerLink]="['/login']">Belépés</button>
+
+      <button class="register__button" role="button" [routerLink]="['/login']">
+        <span *ngIf="(user$ | async)">Kijelentkezés</span>
+        <span *ngIf="!(user$ | async)">Bejelentkezés</span>
+      </button>
 
 
-      <a class="nav-link px-3" routerLink="/login">
+      <!-- <a class="nav-link px-3" routerLink="/login">
         <span *ngIf="(user$ | async)">Sign out</span>
         <span *ngIf="!(user$ | async)">Sign in</span>
-      </a>
+      </a> -->
 
 
     </div>

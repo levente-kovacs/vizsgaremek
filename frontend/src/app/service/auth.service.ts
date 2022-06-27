@@ -46,9 +46,9 @@ export class AuthService {
     this.user$.subscribe({
       next: user => {
         if (user) {
-          this.router.navigate(['/', 'calorie-chart']);
+          this.router.navigate(['/']);
         } else {
-          this.router.navigate(['/', 'login']);
+          this.router.navigate(['/']);
           this.access_token$.next('');
           sessionStorage.removeItem('login');
         }

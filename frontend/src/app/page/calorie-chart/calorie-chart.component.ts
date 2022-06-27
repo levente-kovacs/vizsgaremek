@@ -34,22 +34,6 @@ export class CalorieChartComponent implements OnInit {
       this.calorieChartService
         .remove(calorieChart._id)
         .subscribe(() => (this.list$ = this.calorieChartService.getAll()));
-      // this.toastr.showSuccessWithTimeout(`
-      //   <table class="table">
-      //     <thead>
-      //       <tr>
-      //         <th>Élelmiszer azonosítója</th>
-      //       </tr>
-      //     </thead>
-      //     <tbody>
-      //       <tr>
-      //         <td>${calorieChart._id}</td>
-      //       </tr>
-      //     </tbody>
-      //   </table>
-      //   </span>`,
-      //   "Az élelmiszer sikeresen törlődött:",
-      //   5000)
     }
   }
 }

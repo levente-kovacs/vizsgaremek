@@ -9,8 +9,8 @@ const baseService = require('./service');
 //         .then( list => res.json(list) );
 // };
 
-module.exports = (model) => {
-    const service = baseService(model);
+module.exports = (model, populateList = []) => {
+    const service = baseService(model, populateList);
     return {
         findAll(req, res, next) {
             return service.findAll()

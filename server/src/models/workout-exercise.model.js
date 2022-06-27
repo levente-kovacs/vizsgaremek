@@ -12,7 +12,8 @@ const WorkoutExerciseSchema = mongoose.Schema({
         // }
     },
     workoutType: {
-        type: [String],
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Workout-Type',
         required: true,
     },
     workingMuscles: {
