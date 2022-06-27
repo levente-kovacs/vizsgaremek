@@ -10,8 +10,8 @@
     "docker-compose:up": "docker-compose up",
     "start-watch": "node watcher.js",
     "dev": "concurrently --kill-others \"node watcher.js\" \"docker-compose up\"",
-    "build": "cd ../frontend && npm i && ng build && npx copyfiles ./dist/vizsgaremek/* ../backend/public/ -f && cd ../backend && npm i && docker-compose up",
-    "deploy": "cd ../frontend && ng build && cd ../backend && docker-compose up"
+    "build": "cd ../frontend && npm i && ng build && npx copyfiles ./dist/vizsgaremek/* ../server/public/ -f && cd ../server && npm i && docker-compose up",
+    "deploy": "cd ../frontend && ng build && cd ../server && docker-compose up"
   },
   "keywords": [],
   "author": "",
