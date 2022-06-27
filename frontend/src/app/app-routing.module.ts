@@ -74,14 +74,6 @@ const routes: Routes = [
     path: 'login',
     component: LoginComponent,
   },
-  // {
-  //   path: 'calorie-chart/:_id',
-  //   loadChildren: () => import('./generic-table/generic-table.module').then(m => m.GenericTableModule)
-  //   // component: CalorieChartEditorComponent,
-  //   // children :[
-  //   //   { path: '', component: GenericDataTableComponent},
-  // // ]
-  // },
   {
     path: '**',
     redirectTo: '',

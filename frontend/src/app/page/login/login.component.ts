@@ -25,28 +25,4 @@ export class LoginComponent implements OnInit {
     this.auth.login(this.loginData);
   }
 
-  // user: User = new User();
-
-  // @Output() currentUser: EventEmitter<User> = new EventEmitter<User>();
-
-  // constructor(
-  //   private auth: AuthService,
-  //   private router: Router,
-  // ) { }
-
-  // ngOnInit(): void {
-  // }
-
-  // onLogin(): void {
-  //   this.currentUser.emit(this.user);
-  //   this.auth.login(this.user).subscribe(
-  //     user => {
-  //       if (user) {
-  //         this.router.navigate(['calorie-chart']);
-  //       }
-  //     }
-  //   );
-  // }
-
-
 }

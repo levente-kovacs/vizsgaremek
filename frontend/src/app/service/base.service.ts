@@ -8,7 +8,6 @@ import { ConfigService } from './config.service';
   providedIn: 'root'
 })
 export class BaseService<T extends { _id?: string }> {
-// export class BaseService<T extends { active?: boolean, _id?: string, price?: number }> {
 
   apiUrl = environment.apiUrl;
 

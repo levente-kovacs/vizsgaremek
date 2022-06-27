@@ -1,9 +1,3 @@
-<!-- <nav class="navbar fixed-top navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Fixed top</a>
-  </div>
-</nav> -->
-
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" [routerLink]="['/']">WEBGYM</a>
@@ -33,13 +27,6 @@
         <span *ngIf="(user$ | async)">Kijelentkezés</span>
         <span *ngIf="!(user$ | async)">Bejelentkezés</span>
       </button>
-
-
-      <!-- <a class="nav-link px-3" routerLink="/login">
-        <span *ngIf="(user$ | async)">Sign out</span>
-        <span *ngIf="!(user$ | async)">Sign in</span>
-      </a> -->
-
 
     </div>
   </div>

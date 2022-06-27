@@ -1,13 +1,5 @@
 const express = require('express');
 const baseService = require('./service');
-// const model = require('../../models/calorie-chart.model');
-
-
-// const service = baseService(model);
-// module.exports.findOne = (req, res, next) => {
-//     return service.findAll()
-//         .then( list => res.json(list) );
-// };
 
 module.exports = (model, populateList = []) => {
     const service = baseService(model, populateList);

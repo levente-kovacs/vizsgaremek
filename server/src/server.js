@@ -20,6 +20,7 @@ const swaggerDocument = YAML.load('./docs/swagger.yaml');
 
 // mongodb+srv://vizsgaremek:vizsgaremek@cluster0.vq3ma.mongodb.net/vizsgaremek?retryWrites=true&w=majority
 // eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmI0ZDc5YzFhOTM2YjlhZmY2MjNhMWIiLCJlbWFpbCI6Im1hZ3lhci5tQGdtYWlsLmNvbSIsInJvbGUiOjEsImlhdCI6MTY1NjMxNTMxOSwiZXhwIjoxNjU2MzE4OTE5fQ.X5EcB3uSWAiY5bdCE4U1cKhmrbOihh1Nsha9AjQWiAo
+// $2a$10$Vtn9njBQVjBBNreU2TJNveCz0BuMzubgEHhh1SWyTLCv.rxI2RewK
 
 const { host, user, pass } = config.get('database');
 mongoose.connect(`mongodb+srv://${host}`, {
@@ -42,11 +43,6 @@ app.use('/login', require('./controller/login/router'));
 // app.post('/refresh', authHandler.refresh);
 // app.post('/logout', authHandler.logout);
 
-// app.use('/bills', require('./controllers/bill/routes'));
-// app.use('/orders', require('./controllers/order/routes'));
-// app.use('/products', require('./controllers/product/routes'));
-// app.use('/customers', require('./controllers/customer/routes'));
-// app.use('/users', require('./controllers/user/routes'));
 // app.use('/calorie-chart', require('./controller/calorie-chart/router'));
 app.use('/calorie-chart', require('./controllers/calorie-chart/router'));
 app.use('/sport-supplement',  require('./controllers/sport-supplement/router'));
@@ -55,16 +51,7 @@ app.use('/workout-exercise',  require('./controllers/workout-exercise/router'));
 app.use('/user', authenticateJwt, require('./controllers/user/router'));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
-// app.use( (err, req, res, next) => {
-//     res.status(err.statusCode);
-//     res.json({
-//         hasError: true,
-//         message: err.message
-//     });
-// });
-
 app.use('/', (req, res) => {
-    console.log(req.url);
     res.send('api server');
 });
 

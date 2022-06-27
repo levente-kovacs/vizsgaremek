@@ -48,14 +48,3 @@ const WorkoutExerciseSchema = mongoose.Schema({
 WorkoutExerciseSchema.plugin(idValidator);
 
 module.exports = mongoose.model('Workout-Exercise', WorkoutExerciseSchema);
-
-// _id: string = '';
-//   name: string = '';
-//   workoutType: string[] = [];
-//   workingMuscles: string[] = [];
-//   image: string = '';
-//   sets: string = '';
-//   reps: string = '';
-//   time: string = '';
-//   weight: number = 0;
-  

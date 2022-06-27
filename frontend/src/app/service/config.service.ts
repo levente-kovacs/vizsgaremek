@@ -42,23 +42,15 @@ export class ConfigService {
       pipes: [ConfigService.curveLongString],
       pipeArgs: [[0, 3]]
     },
-    {
-      key: 'manufacturer', title: 'Gyártó',
-    },
-    {
-      key: 'name', title: 'Megnevezés',
-    },
-    {
-      key: 'image', title: 'Kép',
-    },
+    {key: 'manufacturer', title: 'Gyártó'},
+    {key: 'name', title: 'Megnevezés'},
+    {key: 'image', title: 'Kép'},
     {
       key: 'description', title: 'Leírás',
       pipes: [ConfigService.curveLongString],
       pipeArgs: [[0, 15]]
     },
-    {
-      key: 'price', title: 'Ár',
-    },
+    {key: 'price', title: 'Ár'},
     {
       key: 'dosing', title: 'Adagolás',
       pipes: [ConfigService.curveLongString],

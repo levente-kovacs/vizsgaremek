@@ -34,22 +34,6 @@ export class WorkoutTypeComponent implements OnInit {
       this.workoutTypeService
         .remove(workoutType._id)
         .subscribe(() => (this.list$ = this.workoutTypeService.getAll()));
-      // this.toastr.showSuccessWithTimeout(`
-      //   <table class="table">
-      //     <thead>
-      //       <tr>
-      //         <th>Élelmiszer azonosítója</th>
-      //       </tr>
-      //     </thead>
-      //     <tbody>
-      //       <tr>
-      //         <td>${WorkoutType._id}</td>
-      //       </tr>
-      //     </tbody>
-      //   </table>
-      //   </span>`,
-      //   "Az élelmiszer sikeresen törlődött:",
-      //   5000)
     }
   }
 

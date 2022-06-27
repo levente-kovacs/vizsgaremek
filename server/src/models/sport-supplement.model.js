@@ -48,13 +48,3 @@ const SportSupplementSchema = mongoose.Schema({
 SportSupplementSchema.plugin(idValidator);
 
 module.exports = mongoose.model('Sport-Supplement', SportSupplementSchema);
-
-// _id: string = '';
-// manufacturer: string = '';
-// name: string = '';
-// image?: string = '';
-// description: string = '';
-// price: number = 0;
-// dosing: string = '';
-// allergen: string = '';
-// ingredients: string[] = [];

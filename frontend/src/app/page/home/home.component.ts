@@ -31,9 +31,9 @@ export class HomeComponent implements OnInit {
           borderColor: ['rgba(0,0,0,.5))'],
           borderWidth: [2],
           backgroundColor: `rgba(${Math.floor(Math.random() * 255)},
-                                     ${Math.floor(Math.random() * 255)},
-                                     ${Math.floor(Math.random() * 255)},
-                                     .7)`,
+            ${Math.floor(Math.random() * 255)},
+            ${Math.floor(Math.random() * 255)},
+            .7)`,
         };
       });
     });

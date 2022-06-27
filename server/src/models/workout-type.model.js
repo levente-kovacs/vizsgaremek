@@ -27,9 +27,3 @@ const WorkoutTypeSchema = mongoose.Schema({
 WorkoutTypeSchema.plugin(idValidator);
 
 module.exports = mongoose.model('Workout-Type', WorkoutTypeSchema);
-
-// _id: string = '';
-//   type: string = '';
-//   description: string = '';
-//   image: string = '';
-  

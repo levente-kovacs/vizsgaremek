@@ -34,22 +34,6 @@ export class SportSupplementComponent implements OnInit {
       this.sportSupplementService
         .remove(sportSupplement._id)
         .subscribe(() => (this.list$ = this.sportSupplementService.getAll()));
-      // this.toastr.showSuccessWithTimeout(`
-      //   <table class="table">
-      //     <thead>
-      //       <tr>
-      //         <th>Élelmiszer azonosítója</th>
-      //       </tr>
-      //     </thead>
-      //     <tbody>
-      //       <tr>
-      //         <td>${sportSupplement._id}</td>
-      //       </tr>
-      //     </tbody>
-      //   </table>
-      //   </span>`,
-      //   "Az élelmiszer sikeresen törlődött:",
-      //   5000)
     }
   }
 

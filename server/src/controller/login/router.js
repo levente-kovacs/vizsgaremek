@@ -39,9 +39,6 @@ router.post('/', async (req, res, next) => {
     let valid = user.verifyPasswordSync(password);
     valid = true;
     if ( valid ) {
-        console.log('password', password)
-        console.log('user', user.password)
-        console.log('valid', valid)
         const accessToken = jwt.sign({
             _id: user._id,
             email: user.email,

@@ -22,16 +22,12 @@ const refreshTokens = [];
 
 module.exports.login = async (req, res) => {
     const { email, password } = req.body;
-    // console.log('email', email)
-    // console.log('password', password)
 
     const usersFromDatabase = await users.find({});
-    // console.log(usersFromDatabase)
 
     const user = usersFromDatabase.find(
         u => u.email === email && u.password === password
     );
-    // console.log('user', user)
     if (user) {
         const accessToken = jwt.sign({
             email: user.email,
@@ -64,7 +60,6 @@ module.exports.refresh = (req, res, next) => {
     }
 
     if (!refreshTokens.includes(token)) {
-        // console.log(refreshTokens, token);
         return res.sendStatus(403);
     }
 
