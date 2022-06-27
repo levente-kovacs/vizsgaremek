@@ -68,6 +68,14 @@ export class ConfigService {
     {key: 'weight', title: 'Súly'},
   ];
 
+  userTableColumns: ITableColumn[] = [
+    {key: '_id', title: '#'},
+    {key: 'firstName', title: 'Keresztnév'},
+    {key: 'lastName', title: 'Vezetéknév'},
+    {key: 'email', title: 'E-mail'},
+    {key: 'active', title: 'Aktív'},
+  ];
+
   constructor() { }
 
   static curveLongString(

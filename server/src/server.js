@@ -52,7 +52,7 @@ app.use('/calorie-chart', authenticateJwt, require('./controller/calorie-chart/r
 app.use('/sport-supplement',  require('./controller/sport-supplement/router'));
 app.use('/workout-type',  require('./controller/workout-type/router'));
 app.use('/workout-exercise',  require('./controller/workout-exercise/router'));
-// app.use('/calorie-chart', require('./controllers/calorie-chart/routes'));
+app.use('/user', require('./controller/user/router'));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // app.use( (err, req, res, next) => {
