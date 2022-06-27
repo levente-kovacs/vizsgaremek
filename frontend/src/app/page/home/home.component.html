@@ -1,1 +1,44 @@
-<p>home works!</p>
+<div class="row d-flex justify-content-center align-items-center m-0">
+  <div class="login col-10 my-5 p-5">
+
+    <div class="col-8 my-2">
+      <div class="card card-chart">
+        <div class="card-header card-header-success text-danger">
+          <app-bar-chart
+            [barChartLabels]="calorieChartLabels"
+            [barChartData]="calorieChartData">
+          </app-bar-chart>
+          <!-- {{calorieChartData[5].data | json}} -->
+          <!-- [barChartColor]="calorieChartColor"> -->
+        </div>
+        <div class="card-body">
+          <h4 class="card-title text-danger">Energia (kJ)</h4>
+          <p class="card-category">
+            <span class=" text-danger"><i class="fa fa-long-arrow-alt-up"></i>  Termékek energiája</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="col-lg-6 col-xl-4 my-2">
+      <div class="card card-chart">
+        <div class="card-header card-header-warning">
+          <app-pie-chart
+            [pieChartLabels]="customerChartLabels"
+            [pieChartData]="customerChartData"
+            [pieChartColor]="customerChartColor">
+          </app-pie-chart>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Vásárlók</h4>
+          <p class="card-category">
+            <span class="text-warning"><i class="fa fa-long-arrow-alt-up"></i> </span> Aktív és inaktív vásárlók
+          </p>
+        </div>
+      </div>
+    </div> -->
+
+
+
+  </div>
+</div>

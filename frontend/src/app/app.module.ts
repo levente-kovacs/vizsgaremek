@@ -24,6 +24,9 @@ import { UserEditorComponent } from './page/user-editor/user-editor.component';
 import { JwtInterceptor } from './service/jwt.interceptor';
 import { AuthService } from './service/auth.service';
 import { HomeComponent } from './page/home/home.component';
+import { BarChartComponent } from './common/bar-chart/bar-chart.component';
+import { ChartsModule } from 'ng2-charts';
+import { PieChartComponent } from './common/pie-chart/pie-chart.component';
 
 @NgModule({
   declarations: [
@@ -44,13 +47,16 @@ import { HomeComponent } from './page/home/home.component';
     UserComponent,
     UserEditorComponent,
     HomeComponent,
+    BarChartComponent,
+    PieChartComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     GenericTableModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ChartsModule,
   ],
   providers: [
     {

@@ -48,7 +48,7 @@ export class AuthService {
         if (user) {
           this.router.navigate(['/']);
         } else {
-          this.router.navigate(['/']);
+          this.router.navigate(['/', 'login']);
           this.access_token$.next('');
           sessionStorage.removeItem('login');
         }
@@ -60,7 +60,6 @@ export class AuthService {
   login(loginData: ILoginData): void {
     this.http.post<IAuthModel>(this.loginUrl, loginData).subscribe({
       next: (response: IAuthModel) => {
-        console.log(response)
         this.user$.next(response.user);
         this.access_token$.next(response.accessToken);
         sessionStorage.setItem('login', JSON.stringify(response));
