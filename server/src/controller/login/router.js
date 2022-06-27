@@ -37,7 +37,7 @@ router.post('/', async (req, res, next) => {
     await user.save();
 
     let valid = user.verifyPasswordSync(password);
-    valid = true;
+    // valid = true;
     if ( valid ) {
         const accessToken = jwt.sign({
             _id: user._id,

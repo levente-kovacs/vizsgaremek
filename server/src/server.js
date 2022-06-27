@@ -38,10 +38,10 @@ app.use(express.static('public'));
 app.use(bodyParser.json());
 
 // Router.
-app.use('/login', require('./controller/login/router'));
-// app.post('/login', authHandler.login);
-// app.post('/refresh', authHandler.refresh);
-// app.post('/logout', authHandler.logout);
+// app.use('/login', require('./controller/login/router'));
+app.post('/login', authHandler.login);
+app.post('/refresh', authHandler.refresh);
+app.post('/logout', authHandler.logout);
 
 // app.use('/calorie-chart', require('./controller/calorie-chart/router'));
 app.use('/calorie-chart', require('./controllers/calorie-chart/router'));
