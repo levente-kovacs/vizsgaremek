@@ -36,12 +36,12 @@ export class WorkoutTypeEditorComponent implements OnInit {
     this.clicked = true;
     if (workoutType._id === '') {
       this.workoutTypeService.create(form.value).subscribe(
-        () => this.router.navigate(['sport-supplement']),
+        () => this.router.navigate(['workout-type']),
         err => console.error(err)
       );
     } else {
       this.workoutTypeService.update(workoutType).subscribe(
-        () => this.router.navigate(['sport-supplement']),
+        () => this.router.navigate(['workout-type']),
         err => console.error(err)
       );
     }

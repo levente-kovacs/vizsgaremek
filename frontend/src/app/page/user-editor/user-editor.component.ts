@@ -36,12 +36,12 @@ export class UserEditorComponent implements OnInit {
     this.clicked = true;
     if (user._id === '') {
       this.userService.create(form.value).subscribe(
-        () => this.router.navigate(['sport-supplement']),
+        () => this.router.navigate(['user']),
         err => console.error(err)
       );
     } else {
       this.userService.update(user).subscribe(
-        () => this.router.navigate(['sport-supplement']),
+        () => this.router.navigate(['user']),
         err => console.error(err)
       );
     }
