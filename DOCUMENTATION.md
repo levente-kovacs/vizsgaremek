@@ -3,8 +3,8 @@
 ​
 ## **2. Az alkalmazás telepítése**
 - Forkolni kell az adott GitHub repository tartalmát: (https://github.com/DiSLucky7/vizsgaremek)
-- A célgépre le kell klónozni az adott GitHub repository tartalmát: (milyen módon, milyen paranccsal)   
-- Telepíteni kell az alkalmazás függőségeit: (backend és frontend, hová kell belépni, milyen parancsot kell kiadni)   
+- A célgépre le kell klónozni az adott GitHub repository tartalmát: (`git clone https://github.com/<github username>/vizsgaremek`)   
+- Telepíteni kell az alkalmazás függőségeit: (be kell lépni a server, majd a frontend mappákba és ki kell adni az `npm i` parancsot)
 - Ha még nincsen fenn a célgépen, akkor telepíteni kell az Angular keretrendszert az `npm i -g @angular/cli` paranccsal (ha kell)
 - A terminálban ki kell adni az `ng build` parancsot
 - A /frontend/dist/frontend mappa tartalmát be kell másolni a /backend/public mappába   
